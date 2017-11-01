@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_4ce989ccace3b6ec58e35d45f7857b746c3c45aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_3da90c6487fea821be4fe5530ed3198ce2bf507a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_b077e36d3b442622817088a82c89ccd6bf76c22f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2828e737867d5e1848a81f0c410e2e75ed97b885">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4cca8a4a77c6be3864e5cee93b7507e473602eec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4dfb4e37ebdbb04601e3f6fbc67c5ae31207075">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dde67a8956a3328eb96eb74b017f5930bd103f7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_0d0198d5ff854db0906e05d8c2fb470f70e0416d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.0_da5ccdaaeafcb42d9df693930ed9a23dddf855e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_a2bcc2fc8a0b873041aeb3230b2f536d40c3a7f1/classes.dex" />
+    </item>
+
+</items>
