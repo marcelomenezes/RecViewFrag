@@ -9,7 +9,9 @@
         <ImageView
             android:id="@+id/image_lista_postagem"
             android:layout_width="match_parent"
-            android:layout_height="300dp" />
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:padding="8dp"/>
         
     </LinearLayout>
 

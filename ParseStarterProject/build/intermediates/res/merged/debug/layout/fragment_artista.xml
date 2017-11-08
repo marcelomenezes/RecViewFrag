@@ -6,13 +6,12 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:text="ARTISTA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/artistaId"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@android:color/black"
-        android:layout_gravity="center"/>
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lista_artistas"
+        android:divider="@color/cinzaEscuro"
+        android:dividerHeight="1dp"
+        android:layout_gravity="center_horizontal|top"/>
 </FrameLayout>

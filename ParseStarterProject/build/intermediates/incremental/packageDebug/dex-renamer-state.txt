@@ -1,7 +1,7 @@
-#Sat Sep 09 01:11:11 BRT 2017
-base.0=/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4cca8a4a77c6be3864e5cee93b7507e473602eec
+#Wed Nov 08 06:30:05 BRT 2017
+base.0=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dde67a8956a3328eb96eb74b017f5930bd103f7f/classes.dex
-base.1=/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dde67a8956a3328eb96eb74b017f5930bd103f7f
-file.0=/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4cca8a4a77c6be3864e5cee93b7507e473602eec/classes.dex
+file.1=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0/classes.dex
+base.1=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0
+file.0=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637/classes.dex

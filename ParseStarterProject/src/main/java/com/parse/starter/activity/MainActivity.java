@@ -35,6 +35,8 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
 import com.parse.starter.adapter.TabsAdapter;
+import com.parse.starter.fragments.ArtistaFragment;
+import com.parse.starter.fragments.EventoFragment;
 import com.parse.starter.util.SlidingTabLayout;
 
 import java.io.ByteArrayOutputStream;
@@ -150,6 +152,12 @@ public class MainActivity extends AppCompatActivity {
 
                         if(e == null){ //sucesso
                             Toast.makeText(getApplicationContext(), "Sua imagem foi postada!", Toast.LENGTH_LONG).show();
+
+                            //atualizar a lista de novos artistas adicionados
+                            TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();
+                            EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
+                            eventoFragmentoNovo.atualizaEventos();
+
                         }else {//erro
                             Toast.makeText(getApplicationContext(), "Erro ao postar sua imagem - Tente Novamente!",
                                     Toast.LENGTH_LONG).show();

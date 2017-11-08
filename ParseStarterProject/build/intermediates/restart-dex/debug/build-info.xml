@@ -4,9 +4,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="22159867955130"
-    token="8562356008413733408"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="14418663604002"
+    token="2655567612947879165"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -22,15 +22,29 @@
         duration="0" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="145930102243882"
+        timestamp="13686949516260"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="14099229142171"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="37526176267748"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            type="MAIN" />
     </build>
 
 </instant-run>

@@ -5,9 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.parse.ParseObject;
+import com.parse.ParseUser;
 import com.parse.starter.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,15 +20,15 @@ import java.util.List;
  * Created by marcelomenezes on 19/09/17.
  */
 
-public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
+public class ArtistaAdapter extends ArrayAdapter<ParseUser> {
 
     private Context context;
-    private ArrayList<ParseObject> postagens;
+    private ArrayList<ParseUser> artistas;
 
-    public ArtistaAdapter(Context c, ArrayList<ParseObject> objects) {
+    public ArtistaAdapter(Context c, ArrayList<ParseUser> objects) {
         super(c, 0, objects);
         this.context = c;
-        this.postagens = objects;
+        this.artistas = objects;
     }
 
     @Override
@@ -42,9 +46,15 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
 
             //Monta a partir do xml
-            view = inflater.inflate(R.layout.lista_postagem, parent, false);
+            view = inflater.inflate(R.layout.lista_artistas, parent, false);
         }
 
+        //Recuperar elementos para exibição
+        TextView nomeArtista = (TextView) view.findViewById(R.id.text_artistas);
+
+        //Configurar textview para exibir artistas
+        ParseUser parseUser = artistas.get(position);
+        nomeArtista.setText(parseUser.getUsername());
 
         return view;
     }

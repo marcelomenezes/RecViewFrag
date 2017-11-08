@@ -14,6 +14,8 @@ import com.parse.starter.R;
 import com.parse.starter.fragments.ArtistaFragment;
 import com.parse.starter.fragments.EventoFragment;
 
+import java.util.HashMap;
+
 /**
  * Created by marcelomenezes on 24/08/17.
  */
@@ -22,15 +24,18 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
 
     private Context context;
     //private String[] abas = new String[]{"Artista", "Evento"};
-    private int[] icones = new int[]{R.drawable.ic_recent_actors, R.drawable.ic_action_calendar_month};
+    private int[] icones = new int[]{R.drawable.ic_recent_actors, R.drawable.ic_action_calendar_month };
 
     private int tamanhoIcone;
+
+    private HashMap<Integer, Fragment> fragmentosUtilizados;
 
     public TabsAdapter(FragmentManager fm, Context c) {
         super(fm);
         context = c;
         double escala = this.context.getResources().getDisplayMetrics().density;
         tamanhoIcone = (int) (36 * escala);
+        this.fragmentosUtilizados = new HashMap<>();
     }
 
     @Override
@@ -41,13 +46,19 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
         switch (position){
             case 0 :
                 fragment = new ArtistaFragment();
+                //fragmentosUtilizados.put(position, fragment);
                 break;
 
             case 1 :
                 fragment = new EventoFragment();
+                fragmentosUtilizados.put(position, fragment);
                 break;
         }
         return fragment;
+    }
+
+    public Fragment getFragment(Integer indice){
+        return fragmentosUtilizados.get(indice);
     }
 
     @Override

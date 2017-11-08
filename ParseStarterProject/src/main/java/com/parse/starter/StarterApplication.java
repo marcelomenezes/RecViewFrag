@@ -30,8 +30,8 @@ public class StarterApplication extends Application {
 
     // Codigo de configuração do App
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("By4oqvOjwWXznYtmL1a1NNsqPAgiyditFwcUi9qG")
-            .clientKey("UdGwRvH6pOHyCx7rrXeAkoXcWxaH1XvboNq4NqK7")
+            .applicationId("qkuZwZea8MdTeaMmFtwhEjc8ryfffdSZ7xPARcxY")
+            .clientKey("ZJ1LiiMUgUg3Qb4Gx1f1JDizlNB5nObQFm2RJVYi")
             .server("https://parseapi.back4app.com/")
     .build()
     );
