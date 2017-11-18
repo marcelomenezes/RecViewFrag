@@ -144,6 +144,10 @@
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/drawable-xhdpi/ic_account_circle_black_24dp.png"
+    },
+    {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png",
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
     },

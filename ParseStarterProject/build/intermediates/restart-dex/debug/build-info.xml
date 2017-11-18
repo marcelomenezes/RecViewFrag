@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="22"
+    api-level="23"
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="14418663604002"
+    timestamp="70384292133331"
     token="2655567612947879165"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="574" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="657" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="53" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="13686949516260"
+        timestamp="69686954164955"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="14099229142171"
+        timestamp="70053035422814"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="37526176267748"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="70384292133331"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-            type="MAIN" />
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

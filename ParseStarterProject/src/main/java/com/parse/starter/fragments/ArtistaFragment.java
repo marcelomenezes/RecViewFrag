@@ -6,10 +6,12 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.parse.FindCallback;
+import com.parse.ParseClassName;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
@@ -27,8 +29,8 @@ public class ArtistaFragment extends Fragment {
 
 
     private ListView listView;
-    private ArrayList<ParseUser> artistas;
-    private ArrayAdapter<ParseUser> adapter;
+    private ArrayList<ParseObject> artistas;
+    private ArrayAdapter<ParseObject> adapter;
     private ParseQuery<ParseUser> query;
 
 
@@ -53,6 +55,16 @@ public class ArtistaFragment extends Fragment {
 
         getArtistas();
 
+        /*
+        Adicionar click para artista e abrir os eventos respectivos
+        */
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+        });
+
         return view;
     }
 
@@ -61,7 +73,7 @@ public class ArtistaFragment extends Fragment {
         //Query para selecionar todos artistas cadastrados, com exceção do usuário logado
         query = ParseUser.getQuery();
         query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
-        query.orderByAscending("username");
+        query.orderByAscending("nomeArtista");
 
         query.findInBackground(new FindCallback<ParseUser>() {
             @Override

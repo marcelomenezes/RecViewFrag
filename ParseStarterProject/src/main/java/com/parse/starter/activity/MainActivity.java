@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                         if(e == null){ //sucesso
                             Toast.makeText(getApplicationContext(), "Sua imagem foi postada!", Toast.LENGTH_LONG).show();
 
-                            //atualizar a lista de novos artistas adicionados
+                            //atualizar a lista de novos eventos adicionados
                             TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();
                             EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
                             eventoFragmentoNovo.atualizaEventos();

@@ -19,10 +19,11 @@
     <string name="semContaLogin">Não tem conta? Clique aqui para cadastrar.</string>
     <string name="semContaCadastro">Já tem conta? Clique aqui.</string>
 
-    <string name="nomeUsuario">Nome de usuário</string>
+    <string name="nomeUsuario">Usuário</string>
     <string name="senha">Senha</string>
 
-    <string name="cadastroUsuário">Digite o nome do seu usuário</string>
+    <string name="cadastroNome">Digite o nome do(a) artista/grupo</string>
+    <string name="cadastroUsuário">Digite o nome de usuário para login</string>
     <string name="cadastroEmail">Digite seu email</string>
     <string name="cadastroSenha">Digite sua senha</string>
 

@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="43d51279f68ee4cba3d3b8336aecb038dbc45822">
+        sha1="831b5bd77b12e903b15ad4efdbed983e40f22de4">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0/classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="86bba4fec7cdde8d132b932d2ee5ae52b8cd9891">
+        sha1="c3dc4a973d623844f7eba2f2a25d54869b2fa58f">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637/classes.dex" />
     </item>
 

@@ -1,11 +1,16 @@
 package com.parse.starter.activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,8 +25,11 @@ public class CadastroActivity extends AppCompatActivity {
     private EditText cadastroSenha;
     private EditText cadastroEmail;
     private EditText cadastroUsuario;
+    private EditText cadastroNome;
+
     private Button botaoCadastrar;
-    private TextView semConta;
+    private TextView comConta;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +39,9 @@ public class CadastroActivity extends AppCompatActivity {
         cadastroSenha = (EditText) findViewById(R.id.cadastroSenhaId);
         cadastroEmail = (EditText) findViewById(R.id.cadastroEmailId);
         cadastroUsuario = (EditText) findViewById(R.id.cadastroUsuarioId);
-        semConta = (TextView) findViewById(R.id.semContaId);
+        cadastroNome = (EditText) findViewById(R.id.cadastroNomeId);
+
+        comConta = (TextView) findViewById(R.id.semContaId);
         botaoCadastrar = (Button) findViewById(R.id.botaoCadastrarId);
 
         botaoCadastrar.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +51,7 @@ public class CadastroActivity extends AppCompatActivity {
             }
         });
 
-        semConta.setOnClickListener(new View.OnClickListener() {
+        comConta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 abrirLoginUsuario();
@@ -51,10 +61,18 @@ public class CadastroActivity extends AppCompatActivity {
 
     private void cadastrarUsuario(){
         //criar objeto usuario
+        //Bitmap imagemPadrao = BitmapFactory.decodeResource(context.getResources(), R.drawable.usuario);
         ParseUser usuario = new ParseUser();
         usuario.setUsername( cadastroUsuario.getText().toString() );
         usuario.setEmail( cadastroEmail.getText().toString() );
         usuario.setPassword( cadastroSenha.getText().toString() );
+        usuario.put("nomeArtista", cadastroNome.getText().toString() );
+        usuario.put("cidade", "Recife");
+
+        //usuario.put("imagem", imagemPadrao);
+        usuario.put("introducao", "lalal");
+
+
 
         //salvar dados do usuario
         usuario.signUpInBackground(new SignUpCallback() {

@@ -14,18 +14,17 @@ import com.parse.starter.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by marcelomenezes on 19/09/17.
  */
 
-public class ArtistaAdapter extends ArrayAdapter<ParseUser> {
+public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
 
     private Context context;
-    private ArrayList<ParseUser> artistas;
+    private ArrayList<ParseObject> artistas;
 
-    public ArtistaAdapter(Context c, ArrayList<ParseUser> objects) {
+    public ArtistaAdapter(Context c, ArrayList<ParseObject> objects) {
         super(c, 0, objects);
         this.context = c;
         this.artistas = objects;
@@ -50,11 +49,11 @@ public class ArtistaAdapter extends ArrayAdapter<ParseUser> {
         }
 
         //Recuperar elementos para exibição
-        TextView nomeArtista = (TextView) view.findViewById(R.id.text_artistas);
+        TextView textArtistas = (TextView) view.findViewById(R.id.text_artistas);
 
         //Configurar textview para exibir artistas
-        ParseUser parseUser = artistas.get(position);
-        nomeArtista.setText(parseUser.getUsername());
+        ParseObject parseObject = artistas.get(position);
+        textArtistas.setText(parseObject.getString("nomeArtista"));
 
         return view;
     }
