@@ -134,6 +134,27 @@
                         "endOffset": 1729
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 709
+                },
+                "from": {
+                    "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 463
+                    }
+                }
             }
         ]
     }
