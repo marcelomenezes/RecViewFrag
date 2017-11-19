@@ -4,9 +4,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="7580293650882"
+    timestamp="17036879991009"
     token="2655567612947879165"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -22,15 +22,22 @@
         duration="0" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="7580293650882"
+        timestamp="16806640150179"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="17036879991009"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

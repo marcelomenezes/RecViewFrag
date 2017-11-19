@@ -58,7 +58,7 @@ public class ArtistaFragment extends Fragment {
         getArtistas();
 
         /*
-        Adicionar click para artista e abrir os eventos respectivos
+        Adicionar click para artista e abrir o perfil respectivo
         */
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

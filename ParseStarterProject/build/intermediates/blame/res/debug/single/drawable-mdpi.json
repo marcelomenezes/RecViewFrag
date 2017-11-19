@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi/ic_keyboard_arrow_left.png",
+        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/drawable-mdpi/ic_keyboard_arrow_left.png"
+    },
+    {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi/ic_recent_actors.png",
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/drawable-mdpi/ic_recent_actors.png"
     },

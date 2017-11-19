@@ -46,7 +46,7 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
             view = inflater.inflate(R.layout.lista_postagem, parent, false);
         }
 
-        //verifica se existe artistas listados
+        //verifica se existe eventos listados
         if(eventos_listados.size() > 0){
 
 

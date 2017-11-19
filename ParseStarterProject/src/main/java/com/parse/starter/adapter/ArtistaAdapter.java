@@ -50,10 +50,12 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
 
         //Recuperar elementos para exibição
         TextView textArtistas = (TextView) view.findViewById(R.id.text_artistas);
+        TextView textCidade = (TextView) view.findViewById(R.id.text_cidade);
 
         //Configurar textview para exibir artistas
         ParseObject parseObject = artistas.get(position);
         textArtistas.setText(parseObject.getString("nomeArtista"));
+        textCidade.setText(parseObject.getString("cidade"));
 
         return view;
     }
