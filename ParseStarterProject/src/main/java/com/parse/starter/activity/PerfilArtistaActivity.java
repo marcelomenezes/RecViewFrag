@@ -29,6 +29,8 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_artista);
         toolbar.setTitle(artistaNome);
         toolbar.setTitleTextColor(R.color.preta);
+        toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
+        setSupportActionBar(toolbar);
 
     }
 }
