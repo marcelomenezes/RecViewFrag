@@ -1,6 +1,7 @@
 package com.parse.starter.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,6 +18,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.starter.R;
+import com.parse.starter.activity.PerfilArtistaActivity;
 import com.parse.starter.adapter.ArtistaAdapter;
 
 import java.util.ArrayList;
@@ -61,7 +63,14 @@ public class ArtistaFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Recupera os dados da listview para serem passados.
                 ParseObject parseObject = artistas.get(position);
+
+                //enviar dados para feed usuário
+                Intent intent = new Intent(getActivity(), PerfilArtistaActivity.class);
+                intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+
+                startActivity(intent);
             }
         });
 
