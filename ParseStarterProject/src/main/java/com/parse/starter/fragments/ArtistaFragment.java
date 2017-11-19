@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.parse.FindCallback;
 import com.parse.ParseClassName;
@@ -20,6 +21,8 @@ import com.parse.ParseUser;
 import com.parse.starter.R;
 import com.parse.starter.activity.PerfilArtistaActivity;
 import com.parse.starter.adapter.ArtistaAdapter;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +37,8 @@ public class ArtistaFragment extends Fragment {
     private ArrayList<ParseObject> artistas;
     private ArrayAdapter<ParseObject> adapter;
     private ParseQuery<ParseUser> query;
+
+
 
 
 
@@ -55,6 +60,10 @@ public class ArtistaFragment extends Fragment {
         adapter = new ArtistaAdapter(getActivity(), artistas);
         listView.setAdapter(adapter);
 
+        //Montar Perfil do artista
+
+
+
         getArtistas();
 
         /*
@@ -69,6 +78,8 @@ public class ArtistaFragment extends Fragment {
                 //enviar dados para feed usuário
                 Intent intent = new Intent(getActivity(), PerfilArtistaActivity.class);
                 intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+                intent.putExtra("cidade", parseObject.getString("cidade"));
+                intent.putExtra("introducao", parseObject.getString("introducao"));
 
                 startActivity(intent);
             }
@@ -81,7 +92,7 @@ public class ArtistaFragment extends Fragment {
 
         //Query para selecionar todos artistas cadastrados, com exceção do usuário logado
         query = ParseUser.getQuery();
-        query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        //query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
         query.orderByAscending("nomeArtista");
 
         query.findInBackground(new FindCallback<ParseUser>() {

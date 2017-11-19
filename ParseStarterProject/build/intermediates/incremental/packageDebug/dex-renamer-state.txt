@@ -1,4 +1,4 @@
-#Sun Nov 19 02:05:59 BRT 2017
+#Sun Nov 19 05:52:40 BRT 2017
 base.0=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637
 renamed.1=classes2.dex
 renamed.0=classes.dex

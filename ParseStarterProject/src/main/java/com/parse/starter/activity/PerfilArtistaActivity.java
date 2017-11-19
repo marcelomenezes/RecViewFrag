@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 import com.parse.starter.R;
 
@@ -14,6 +15,12 @@ public class PerfilArtistaActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private String artistaNome;
+
+    private String cidadeNome;
+    private String introducao;
+
+    private TextView cidadeNomeText;
+    private TextView introducaoText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +31,9 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         //Recupera dados da intent ArtistaFragment
         Intent intent = getIntent();
         artistaNome = intent.getStringExtra("nomeArtista");
+        cidadeNome = intent.getStringExtra("cidade");
+        introducao = intent.getStringExtra("introducao");
+
 
         //configurar toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_artista);
@@ -31,6 +41,15 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         toolbar.setTitleTextColor(R.color.preta);
         toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
         setSupportActionBar(toolbar);
+
+
+        //configurar o perfil
+        cidadeNomeText = (TextView) findViewById(R.id.text_cidade_perfil);
+        introducaoText = (TextView) findViewById(R.id.text_introducao_perfil);
+
+        //associando o textview aos valores passados pelo intent
+        cidadeNomeText.setText(cidadeNome);
+        introducaoText.setText(introducao);
 
     }
 }
