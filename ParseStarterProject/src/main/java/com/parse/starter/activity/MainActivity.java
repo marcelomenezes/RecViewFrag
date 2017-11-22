@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 deslogarUsuario();
                 return true;
             case R.id.action_configuracoes:
+                configurarPerfil();
                 return true;
             case R.id.action_adicionar_evento:
                 adicionarEvento();
@@ -177,6 +178,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
-
+    private void configurarPerfil(){
+        Intent intent = new Intent(this, PerfilArtistaActivity.class);
+    }
 
 }
