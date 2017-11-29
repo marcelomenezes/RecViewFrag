@@ -142,23 +142,27 @@ public class MainActivity extends AppCompatActivity {
                 ParseFile arquivoParse = new ParseFile( nomeImagem + "imagem.png", byteArray);
 
                 //Monta o objeto para salvar no parse
+
+                ParseObject usuarioAtual = ParseUser.getCurrentUser();
+                usuarioAtual.put("imagem", arquivoParse);
+                /*
                 ParseObject parseObject = new ParseObject("Imagem");
                 parseObject.put("username", ParseUser.getCurrentUser().getUsername());
                 parseObject.put("imagem", arquivoParse);
-
+                */
                 //salvar os dados
-                parseObject.saveInBackground(new SaveCallback() {
+                usuarioAtual.saveInBackground(new SaveCallback() {
                     @Override
                     public void done(ParseException e) {
 
                         if(e == null){ //sucesso
                             Toast.makeText(getApplicationContext(), "Sua imagem foi postada!", Toast.LENGTH_LONG).show();
-
+                            /*
                             //atualizar a lista de novos eventos adicionados
                             TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();
                             EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
                             eventoFragmentoNovo.atualizaEventos();
-
+                               */
                         }else {//erro
                             Toast.makeText(getApplicationContext(), "Erro ao postar sua imagem - Tente Novamente!",
                                     Toast.LENGTH_LONG).show();
@@ -179,7 +183,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     private void configurarPerfil(){
-        Intent intent = new Intent(this, PerfilArtistaActivity.class);
+        Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
+        startActivity(intent);
     }
 
 }

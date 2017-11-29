@@ -54,6 +54,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.parse.starter.activity.MainActivity" />
         </activity>
+        <activity
+            android:name="com.parse.starter.activity.PerfilConfigArtistaActivity"
+            android:label="@string/title_activity_perfil_config_artista"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

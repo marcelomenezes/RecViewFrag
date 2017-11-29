@@ -81,6 +81,7 @@ public class ArtistaFragment extends Fragment {
                 intent.putExtra("cidade", parseObject.getString("cidade"));
                 intent.putExtra("introducao", parseObject.getString("introducao"));
 
+
                 startActivity(intent);
             }
         });

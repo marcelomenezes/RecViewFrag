@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
+    api-level="22"
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="36774665605597"
+    timestamp="8484001486074"
     token="2655567612947879165"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="422" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="19" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="36774665605597"
+        timestamp="8312125483937"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="8484001486074"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

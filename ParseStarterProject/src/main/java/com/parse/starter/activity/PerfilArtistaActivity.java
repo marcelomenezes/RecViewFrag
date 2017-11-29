@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.starter.R;
@@ -22,6 +23,8 @@ public class PerfilArtistaActivity extends AppCompatActivity {
     private TextView cidadeNomeText;
     private TextView introducaoText;
 
+    private ImageView imagemPerfil;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +36,7 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         artistaNome = intent.getStringExtra("nomeArtista");
         cidadeNome = intent.getStringExtra("cidade");
         introducao = intent.getStringExtra("introducao");
+
 
 
         //configurar toolbar
