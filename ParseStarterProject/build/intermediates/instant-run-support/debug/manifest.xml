@@ -58,7 +58,17 @@
         <activity
             android:name="com.parse.starter.activity.PerfilConfigArtistaActivity"
             android:label="@string/title_activity_perfil_config_artista"
-            android:theme="@style/AppTheme" />
+            android:parentActivityName="com.parse.starter.activity.MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.parse.starter.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.parse.starter.activity.PerfilConfigEventoActivity"
+            android:label="@string/title_activity_perfil_config_evento"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
 </manifest>

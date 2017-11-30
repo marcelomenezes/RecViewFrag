@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-56:12
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-67:12
 	package
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProj
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
 application
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:16:5-54:19
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:16:5-65:19
 MERGED from [com.android.support:design:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
@@ -95,13 +95,23 @@ ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProj
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:47:17-63
 activity#com.parse.starter.activity.PerfilConfigArtistaActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:50:9-53:56
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:50:9-58:20
 	android:label
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:52:13-73
+	android:parentActivityName
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:53:13-64
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:53:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:54:13-44
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:51:13-65
+activity#com.parse.starter.activity.PerfilConfigEventoActivity
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:59:9-64:20
+	android:label
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:61:13-72
+	android:theme
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:60:13-64
 uses-sdk
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:20:5-43

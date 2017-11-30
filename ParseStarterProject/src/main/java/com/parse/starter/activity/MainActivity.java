@@ -22,6 +22,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
@@ -34,6 +36,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
+import com.parse.starter.adapter.ArtistaAdapter;
 import com.parse.starter.adapter.TabsAdapter;
 import com.parse.starter.fragments.ArtistaFragment;
 import com.parse.starter.fragments.EventoFragment;
@@ -42,6 +45,7 @@ import com.parse.starter.util.SlidingTabLayout;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -51,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbarPrincipal;
     private SlidingTabLayout slidingTabLayout;
     private ViewPager viewPager;
+
+    //para passar conteúdo na configuração do artista
+    private ParseObject artistaConfig;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -183,7 +191,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     private void configurarPerfil(){
+        ParseObject parseObject = ParseUser.getCurrentUser();
+
         Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
+        intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+        intent.putExtra("cidade", parseObject.getString("cidade"));
+        intent.putExtra("introducao", parseObject.getString("introducao"));
         startActivity(intent);
     }
 

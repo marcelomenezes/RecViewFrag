@@ -34,5 +34,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_perfil_artista">PerfilArtistaActivity</string>
     <string name="title_activity_perfil_config_artista">PerfilConfigArtistaActivity</string>
+    <string name="title_activity_perfil_config_evento">PerfilConfigEventoActivity</string>
 
 </resources>

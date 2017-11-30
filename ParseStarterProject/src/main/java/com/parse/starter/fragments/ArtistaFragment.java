@@ -62,8 +62,6 @@ public class ArtistaFragment extends Fragment {
 
         //Montar Perfil do artista
 
-
-
         getArtistas();
 
         /*

@@ -11,7 +11,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -31,6 +33,16 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
     private Button botaoTrocarImagem;
     private ImageView imagemPerfil;
 
+    private Toolbar toolbar;
+    private String artistaNome;
+
+    private String cidadeNome;
+    private String introducao;
+
+    private EditText cidadeNomeEditText;
+    private EditText introducaoEditText;
+
+    private Button botaoSalvarAlteracao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +51,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
         botaoTrocarImagem = (Button) findViewById(R.id.botao_trocar_imagem);
         imagemPerfil = (ImageView) findViewById(R.id.imagem_perfil);
+        cidadeNomeEditText = (EditText) findViewById(R.id.text_config_cidade_perfil);
+        introducaoEditText = (EditText) findViewById(R.id.text_config_introducao_perfil);
 
         botaoTrocarImagem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +61,32 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
                 startActivityForResult(intent, 1);
             }
         });
+
+
+        //Recupera dados da intent ArtistaFragment
+        Intent intent = getIntent();
+        artistaNome = intent.getStringExtra("nomeArtista");
+        cidadeNome = intent.getStringExtra("cidade");
+        introducao = intent.getStringExtra("introducao");
+
+
+
+        //configurar toolbar
+        toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_config_artista);
+        toolbar.setTitle(artistaNome);
+        toolbar.setTitleTextColor(R.color.preta);
+        toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
+        setSupportActionBar(toolbar);
+
+
+
+        //associando o textview aos valores passados pelo intent
+        cidadeNomeEditText.setText(cidadeNome);
+        introducaoEditText.setText(introducao);
+
+
+
+
     }
 
     @Override

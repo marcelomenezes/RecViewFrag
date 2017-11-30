@@ -32,6 +32,10 @@
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/layout/fragment_evento.xml"
     },
     {
+        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/content_perfil_config_evento.xml",
+        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/layout/content_perfil_config_evento.xml"
+    },
+    {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/layout_tab_icon.xml",
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/layout/layout_tab_icon.xml"
     },
@@ -44,12 +48,12 @@
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/layout/content_perfil_config_artista.xml"
     },
     {
-        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_media.xml"
-    },
-    {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/fragment_artista.xml",
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/layout/fragment_artista.xml"
+    },
+    {
+        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -174,6 +178,10 @@
     {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_perfil_config_evento.xml",
+        "source": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/layout/activity_perfil_config_evento.xml"
     },
     {
         "merged": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
