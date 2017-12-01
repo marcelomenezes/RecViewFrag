@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.starter.R;
+import com.squareup.picasso.Picasso;
 
 public class PerfilArtistaActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class PerfilArtistaActivity extends AppCompatActivity {
     private TextView cidadeNomeText;
     private TextView introducaoText;
 
+    private String imagemPerfilUrl;
     private ImageView imagemPerfil;
 
     @Override
@@ -36,7 +38,7 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         artistaNome = intent.getStringExtra("nomeArtista");
         cidadeNome = intent.getStringExtra("cidade");
         introducao = intent.getStringExtra("introducao");
-
+        imagemPerfilUrl = intent.getStringExtra("imagem");
 
 
         //configurar toolbar
@@ -50,10 +52,16 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         //configurar o perfil
         cidadeNomeText = (TextView) findViewById(R.id.text_cidade_perfil);
         introducaoText = (TextView) findViewById(R.id.text_introducao_perfil);
+        imagemPerfil = (ImageView) findViewById(R.id.imagem_perfil);
 
         //associando o textview aos valores passados pelo intent
         cidadeNomeText.setText(cidadeNome);
         introducaoText.setText(introducao);
+
+        Picasso.with(this)
+                .load( imagemPerfilUrl)
+                .fit()
+                .into(imagemPerfil);
 
     }
 }

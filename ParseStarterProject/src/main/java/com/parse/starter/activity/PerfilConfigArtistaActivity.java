@@ -5,15 +5,12 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -43,6 +40,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
     private EditText introducaoEditText;
 
     private Button botaoSalvarAlteracao;
+    private String cidadeNomeAlterada;
+    private String introducaoAlterada;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +52,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         imagemPerfil = (ImageView) findViewById(R.id.imagem_perfil);
         cidadeNomeEditText = (EditText) findViewById(R.id.text_config_cidade_perfil);
         introducaoEditText = (EditText) findViewById(R.id.text_config_introducao_perfil);
+        botaoSalvarAlteracao = (Button) findViewById(R.id.botao_salvar_alteracao);
 
         botaoTrocarImagem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +65,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
         //Recupera dados da intent ArtistaFragment
         Intent intent = getIntent();
+        //imagemPerfil = intent.get
         artistaNome = intent.getStringExtra("nomeArtista");
         cidadeNome = intent.getStringExtra("cidade");
         introducao = intent.getStringExtra("introducao");
@@ -84,6 +85,40 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         cidadeNomeEditText.setText(cidadeNome);
         introducaoEditText.setText(introducao);
 
+
+        botaoSalvarAlteracao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                cidadeNomeAlterada = cidadeNomeEditText.getText().toString();
+                introducaoAlterada = introducaoEditText.getText().toString();
+
+                ParseObject usuarioLogado = ParseUser.getCurrentUser();
+                usuarioLogado.put("cidade", cidadeNomeAlterada);
+                usuarioLogado.put("introducao", introducaoAlterada);
+
+                usuarioLogado.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+
+                        if(e == null){ //sucesso
+                            Toast.makeText(getApplicationContext(), "Sua alteração foi salva!", Toast.LENGTH_LONG).show();
+                            /*
+                            //atualizar a lista de novos eventos adicionados
+                            TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();
+                            EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
+                            eventoFragmentoNovo.atualizaEventos();
+                               */
+                        }else {//erro
+                            Toast.makeText(getApplicationContext(), "Erro ao alterar dados - Tente Novamente!",
+                                    Toast.LENGTH_LONG).show();
+                            e.printStackTrace();
+                        }
+
+                    }
+                });
+            }
+        });
 
 
 

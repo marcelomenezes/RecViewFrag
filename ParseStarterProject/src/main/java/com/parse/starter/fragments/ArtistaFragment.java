@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.parse.FindCallback;
 import com.parse.ParseClassName;
 import com.parse.ParseException;
+import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
@@ -75,9 +76,13 @@ public class ArtistaFragment extends Fragment {
 
                 //enviar dados para feed usuário
                 Intent intent = new Intent(getActivity(), PerfilArtistaActivity.class);
+                intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
                 intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
                 intent.putExtra("cidade", parseObject.getString("cidade"));
                 intent.putExtra("introducao", parseObject.getString("introducao"));
+
+
+
 
 
                 startActivity(intent);

@@ -54,6 +54,8 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
         //recuperar imagem para lista de artista
         ImageView artistaPostagem = (ImageView) view.findViewById(R.id.icone_artista);
 
+        ImageView imagemPerfilConfig = (ImageView) view.findViewById(R.id.imagem_perfil_config);
+
         //verifica se tem artistas cadastrados
         if(artistas.size() > 0) {
             //Configurar textview para exibir artistas
@@ -61,13 +63,14 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
             textArtistas.setText(parseObject.getString("nomeArtista"));
             textCidade.setText(parseObject.getString("cidade"));
 
-
-
             Picasso.with(context)
                     .load( parseObject.getParseFile("imagem").getUrl())
                     .fit()
                     .into(artistaPostagem);
         }
+
+
+
 
         return view;
     }

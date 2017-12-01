@@ -4,9 +4,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="32038118236274"
+    timestamp="29660870686951"
     token="2655567612947879165"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -26,11 +26,25 @@
         type="RESOURCES" />
 
     <build
-        timestamp="31594578559496"
+        timestamp="28738399236214"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="29262074113039"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="29374852816229"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
     </build>
     <build
         timestamp="32038118236274"
