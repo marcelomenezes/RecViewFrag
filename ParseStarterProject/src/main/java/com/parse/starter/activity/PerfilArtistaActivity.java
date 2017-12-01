@@ -59,9 +59,8 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         introducaoText.setText(introducao);
 
         Picasso.with(this)
-                .load( imagemPerfilUrl)
+                .load(imagemPerfilUrl)
                 .fit()
                 .into(imagemPerfil);
-
     }
 }

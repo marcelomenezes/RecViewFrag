@@ -19,6 +19,7 @@ import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
+import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -28,7 +29,6 @@ import java.util.Date;
 public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
     private Button botaoTrocarImagem;
-    private ImageView imagemPerfil;
 
     private Toolbar toolbar;
     private String artistaNome;
@@ -43,16 +43,21 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
     private String cidadeNomeAlterada;
     private String introducaoAlterada;
 
+    private String imagemConfigUrl;
+    private ImageView imagemConfig;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_config_artista);
 
         botaoTrocarImagem = (Button) findViewById(R.id.botao_trocar_imagem);
-        imagemPerfil = (ImageView) findViewById(R.id.imagem_perfil);
+        imagemConfig = (ImageView) findViewById(R.id.imagem_perfil_config);
         cidadeNomeEditText = (EditText) findViewById(R.id.text_config_cidade_perfil);
         introducaoEditText = (EditText) findViewById(R.id.text_config_introducao_perfil);
         botaoSalvarAlteracao = (Button) findViewById(R.id.botao_salvar_alteracao);
+
 
         botaoTrocarImagem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +74,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         artistaNome = intent.getStringExtra("nomeArtista");
         cidadeNome = intent.getStringExtra("cidade");
         introducao = intent.getStringExtra("introducao");
+        imagemConfigUrl = intent.getStringExtra("imagem");
 
 
 
@@ -119,6 +125,11 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
                 });
             }
         });
+
+        Picasso.with(this)
+                .load(imagemConfigUrl)
+                .fit()
+                .into(imagemConfig);
 
 
 

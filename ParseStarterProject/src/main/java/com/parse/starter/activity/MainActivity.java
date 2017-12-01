@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
         ParseObject parseObject = ParseUser.getCurrentUser();
 
         Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
+        intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
         intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
         intent.putExtra("cidade", parseObject.getString("cidade"));
         intent.putExtra("introducao", parseObject.getString("introducao"));
