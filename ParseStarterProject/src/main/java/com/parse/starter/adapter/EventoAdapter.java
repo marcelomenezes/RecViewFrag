@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.parse.ParseObject;
 import com.parse.starter.R;
@@ -43,22 +44,29 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
 
             //Monta a partir do xml
-            view = inflater.inflate(R.layout.lista_postagem, parent, false);
+            view = inflater.inflate(R.layout.lista_evento, parent, false);
         }
+
+        //Recupera os elementos para exibição
+        TextView textEvento = (TextView) view.findViewById(R.id.text_nome_evento);
+        TextView textCidadeEvento = (TextView) view.findViewById(R.id.text_cidade_evento);
+
+        ImageView imagemEvento = (ImageView) view.findViewById(R.id.imagem_lista_evento);
 
         //verifica se existe eventos listados
         if(eventos_listados.size() > 0){
 
 
-            //recuperar componentes de tela
-            ImageView artistaPostagem = (ImageView) view.findViewById(R.id.image_lista_postagem);
-
+            //Configurar TextView para exibir os eventos
             ParseObject parseObject = eventos_listados.get(position);
+            textEvento.setText(parseObject.getString("introducao"));
+            textCidadeEvento.setText(parseObject.getString("cidade"));
+
 
             Picasso.with(context)
                     .load( parseObject.getParseFile("imagem").getUrl())
                     .fit()
-                    .into(artistaPostagem);
+                    .into(imagemEvento);
         }
 
 

@@ -247,7 +247,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_adicionar_evento">Adicionar Evento</string>
-    <string name="action_configuracoes">Configurações</string>
+    <string name="action_configuracoes">Configurações do Perfil</string>
     <string name="action_sair">Sair</string>
     <string name="app_name">Música PE</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>

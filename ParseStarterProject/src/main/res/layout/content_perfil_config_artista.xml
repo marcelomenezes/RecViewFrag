@@ -21,6 +21,7 @@
             android:layout_marginTop="172dp"
             android:id="@+id/imagem_perfil_config"/>
 
+
         <EditText
             android:hint="Cidade Natal"
             android:layout_width="wrap_content"
@@ -66,6 +67,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
             android:id="@+id/botao_trocar_imagem" />
+
+
 
 
     </RelativeLayout>

@@ -61,8 +61,8 @@ public class EventoFragment extends Fragment {
     private void getEventosListados(){
 
         //Recupera imagens das postagens
-        query = ParseQuery.getQuery("Imagem");
-        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query = ParseQuery.getQuery("Evento");
+        //query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
         query.orderByDescending("createdAt");
 
         query.findInBackground(new FindCallback<ParseObject>() {

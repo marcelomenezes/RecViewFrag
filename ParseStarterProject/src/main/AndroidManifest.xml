@@ -59,7 +59,11 @@
         <activity
             android:name=".activity.PerfilConfigEventoActivity"
             android:label="@string/title_activity_perfil_config_evento"
+            android:parentActivityName=".activity.MainActivity"
             android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.parse.starter.activity.MainActivity" />
 
         </activity>
     </application>

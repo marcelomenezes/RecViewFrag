@@ -12,7 +12,7 @@
 
     <string name="app_name">Música PE</string>
 
-    <string name="action_configuracoes">Configurações</string>
+    <string name="action_configuracoes">Configurações do Perfil</string>
     <string name="action_sair">Sair</string>
     <string name="action_adicionar_evento">Adicionar Evento</string>
 

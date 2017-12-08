@@ -2515,20 +2515,27 @@
                     "startLine": 249,
                     "startColumn": 4,
                     "startOffset": 33847,
-                    "endColumn": 62,
-                    "endOffset": 33905
+                    "endColumn": 72,
+                    "endOffset": 33915
                 },
                 "from": {
-                    "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
+                    "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 540,
+                        "endColumn": 72,
+                        "endOffset": 608
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 33910,
+                    "startOffset": 33920,
                     "endColumn": 44,
-                    "endOffset": 33950
+                    "endOffset": 33960
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2538,9 +2545,9 @@
                 "to": {
                     "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 33955,
+                    "startOffset": 33965,
                     "endColumn": 46,
-                    "endOffset": 33997
+                    "endOffset": 34007
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2550,9 +2557,9 @@
                 "to": {
                     "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 34002,
+                    "startOffset": 34012,
                     "endColumn": 144,
-                    "endOffset": 34142
+                    "endOffset": 34152
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -2562,9 +2569,9 @@
                 "to": {
                     "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 34147,
+                    "startOffset": 34157,
                     "endColumn": 52,
-                    "endOffset": 34195
+                    "endOffset": 34205
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2574,9 +2581,9 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 34200,
+                    "startOffset": 34210,
                     "endColumn": 44,
-                    "endOffset": 34240
+                    "endOffset": 34250
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2586,9 +2593,9 @@
                 "to": {
                     "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 34245,
+                    "startOffset": 34255,
                     "endColumn": 58,
-                    "endOffset": 34299
+                    "endOffset": 34309
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2598,9 +2605,9 @@
                 "to": {
                     "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 34304,
+                    "startOffset": 34314,
                     "endColumn": 74,
-                    "endOffset": 34374
+                    "endOffset": 34384
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2610,9 +2617,9 @@
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 34379,
+                    "startOffset": 34389,
                     "endColumn": 58,
-                    "endOffset": 34433
+                    "endOffset": 34443
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2622,9 +2629,9 @@
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 34438,
+                    "startOffset": 34448,
                     "endColumn": 79,
-                    "endOffset": 34513
+                    "endOffset": 34523
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2634,9 +2641,9 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 34518,
+                    "startOffset": 34528,
                     "endColumn": 69,
-                    "endOffset": 34583
+                    "endOffset": 34593
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2646,9 +2653,9 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 34588,
+                    "startOffset": 34598,
                     "endColumn": 47,
-                    "endOffset": 34631
+                    "endOffset": 34641
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2658,9 +2665,9 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 34636,
+                    "startOffset": 34646,
                     "endColumn": 60,
-                    "endOffset": 34692
+                    "endOffset": 34702
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2670,9 +2677,9 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 34697,
+                    "startOffset": 34707,
                     "endColumn": 60,
-                    "endOffset": 34753
+                    "endOffset": 34763
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2682,9 +2689,9 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 34758,
+                    "startOffset": 34768,
                     "endColumn": 71,
-                    "endOffset": 34825
+                    "endOffset": 34835
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2694,9 +2701,9 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 34830,
+                    "startOffset": 34840,
                     "endColumn": 84,
-                    "endOffset": 34910
+                    "endOffset": 34920
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2706,9 +2713,9 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 34915,
+                    "startOffset": 34925,
                     "endColumn": 39,
-                    "endOffset": 34950
+                    "endOffset": 34960
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2718,9 +2725,9 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 34955,
+                    "startOffset": 34965,
                     "endColumn": 70,
-                    "endOffset": 35021
+                    "endOffset": 35031
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2730,9 +2737,9 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 35026,
+                    "startOffset": 35036,
                     "endColumn": 79,
-                    "endOffset": 35101
+                    "endOffset": 35111
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2742,9 +2749,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 35106,
+                    "startOffset": 35116,
                     "endColumn": 92,
-                    "endOffset": 35194
+                    "endOffset": 35204
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
@@ -2754,28 +2761,21 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 35199,
+                    "startOffset": 35209,
                     "endColumn": 90,
-                    "endOffset": 35285
+                    "endOffset": 35295
                 },
                 "from": {
-                    "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 1639,
-                        "endColumn": 90,
-                        "endOffset": 1725
-                    }
+                    "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 35290,
+                    "startOffset": 35300,
                     "endColumn": 77,
-                    "endOffset": 35363
+                    "endOffset": 35373
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2785,9 +2785,9 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 35368,
+                    "startOffset": 35378,
                     "endColumn": 89,
-                    "endOffset": 35453
+                    "endOffset": 35463
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2797,9 +2797,9 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 35458,
+                    "startOffset": 35468,
                     "endColumn": 87,
-                    "endOffset": 35541
+                    "endOffset": 35551
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2809,9 +2809,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 35546,
+                    "startOffset": 35556,
                     "endColumn": 95,
-                    "endOffset": 35637
+                    "endOffset": 35647
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2821,10 +2821,10 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 35642,
+                    "startOffset": 35652,
                     "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 35804
+                    "endOffset": 35814
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/styles.xml"
@@ -2834,9 +2834,9 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 35809,
+                    "startOffset": 35819,
                     "endColumn": 89,
-                    "endOffset": 35894
+                    "endOffset": 35904
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/styles.xml"
@@ -2846,9 +2846,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 35899,
+                    "startOffset": 35909,
                     "endColumn": 79,
-                    "endOffset": 35974
+                    "endOffset": 35984
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/res/values/styles.xml"
@@ -2858,10 +2858,10 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 35979,
+                    "startOffset": 35989,
                     "endLine": 286,
                     "endColumn": 12,
-                    "endOffset": 36475
+                    "endOffset": 36485
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2871,9 +2871,9 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 36480,
+                    "startOffset": 36490,
                     "endColumn": 88,
-                    "endOffset": 36564
+                    "endOffset": 36574
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2883,10 +2883,10 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 36569,
+                    "startOffset": 36579,
                     "endLine": 291,
                     "endColumn": 12,
-                    "endOffset": 36811
+                    "endOffset": 36821
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2896,10 +2896,10 @@
                 "to": {
                     "startLine": 292,
                     "startColumn": 4,
-                    "startOffset": 36816,
+                    "startOffset": 36826,
                     "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 37092
+                    "endOffset": 37102
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2909,10 +2909,10 @@
                 "to": {
                     "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 37097,
+                    "startOffset": 37107,
                     "endLine": 300,
                     "endColumn": 12,
-                    "endOffset": 37377
+                    "endOffset": 37387
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2922,10 +2922,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 37382,
+                    "startOffset": 37392,
                     "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 37770
+                    "endOffset": 37780
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2935,10 +2935,10 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 37775,
+                    "startOffset": 37785,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 38247
+                    "endOffset": 38257
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2948,10 +2948,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 38252,
+                    "startOffset": 38262,
                     "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 38469
+                    "endOffset": 38479
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2961,10 +2961,10 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 38474,
+                    "startOffset": 38484,
                     "endLine": 321,
                     "endColumn": 12,
-                    "endOffset": 38691
+                    "endOffset": 38701
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2974,10 +2974,10 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 38696,
+                    "startOffset": 38706,
                     "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 38959
+                    "endOffset": 38969
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -2987,10 +2987,10 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 38964,
+                    "startOffset": 38974,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 39186
+                    "endOffset": 39196
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3000,10 +3000,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 39191,
+                    "startOffset": 39201,
                     "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 39416
+                    "endOffset": 39426
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3013,10 +3013,10 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 39421,
+                    "startOffset": 39431,
                     "endLine": 338,
                     "endColumn": 12,
-                    "endOffset": 39646
+                    "endOffset": 39656
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3026,10 +3026,10 @@
                 "to": {
                     "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 39651,
+                    "startOffset": 39661,
                     "endLine": 342,
                     "endColumn": 12,
-                    "endOffset": 39876
+                    "endOffset": 39886
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3039,10 +3039,10 @@
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 39881,
+                    "startOffset": 39891,
                     "endLine": 346,
                     "endColumn": 12,
-                    "endOffset": 40106
+                    "endOffset": 40116
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3052,10 +3052,10 @@
                 "to": {
                     "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 40111,
+                    "startOffset": 40121,
                     "endLine": 350,
                     "endColumn": 12,
-                    "endOffset": 40333
+                    "endOffset": 40343
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3065,10 +3065,10 @@
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 40338,
+                    "startOffset": 40348,
                     "endLine": 354,
                     "endColumn": 12,
-                    "endOffset": 40572
+                    "endOffset": 40582
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3078,10 +3078,10 @@
                 "to": {
                     "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 40577,
+                    "startOffset": 40587,
                     "endLine": 358,
                     "endColumn": 12,
-                    "endOffset": 40798
+                    "endOffset": 40808
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3091,10 +3091,10 @@
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 40803,
+                    "startOffset": 40813,
                     "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 41043
+                    "endOffset": 41053
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3104,10 +3104,10 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 41048,
+                    "startOffset": 41058,
                     "endLine": 364,
                     "endColumn": 12,
-                    "endOffset": 41173
+                    "endOffset": 41183
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3117,10 +3117,10 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 41178,
+                    "startOffset": 41188,
                     "endLine": 366,
                     "endColumn": 12,
-                    "endOffset": 41303
+                    "endOffset": 41313
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3130,10 +3130,10 @@
                 "to": {
                     "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 41308,
+                    "startOffset": 41318,
                     "endLine": 370,
                     "endColumn": 12,
-                    "endOffset": 41533
+                    "endOffset": 41543
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3143,10 +3143,10 @@
                 "to": {
                     "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 41538,
+                    "startOffset": 41548,
                     "endLine": 374,
                     "endColumn": 12,
-                    "endOffset": 41781
+                    "endOffset": 41791
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3156,10 +3156,10 @@
                 "to": {
                     "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 41786,
+                    "startOffset": 41796,
                     "endLine": 378,
                     "endColumn": 12,
-                    "endOffset": 42000
+                    "endOffset": 42010
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3169,10 +3169,10 @@
                 "to": {
                     "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 42005,
+                    "startOffset": 42015,
                     "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 42283
+                    "endOffset": 42293
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3182,10 +3182,10 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 42288,
+                    "startOffset": 42298,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 42491
+                    "endOffset": 42501
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3195,10 +3195,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 42496,
+                    "startOffset": 42506,
                     "endLine": 390,
                     "endColumn": 12,
-                    "endOffset": 42622
+                    "endOffset": 42632
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3208,10 +3208,10 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 42627,
+                    "startOffset": 42637,
                     "endLine": 394,
                     "endColumn": 12,
-                    "endOffset": 42849
+                    "endOffset": 42859
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3221,10 +3221,10 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 42854,
+                    "startOffset": 42864,
                     "endLine": 398,
                     "endColumn": 12,
-                    "endOffset": 43095
+                    "endOffset": 43105
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3234,10 +3234,10 @@
                 "to": {
                     "startLine": 399,
                     "startColumn": 4,
-                    "startOffset": 43100,
+                    "startOffset": 43110,
                     "endLine": 402,
                     "endColumn": 12,
-                    "endOffset": 43320
+                    "endOffset": 43330
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3247,10 +3247,10 @@
                 "to": {
                     "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 43325,
+                    "startOffset": 43335,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 43569
+                    "endOffset": 43579
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3260,10 +3260,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 43574,
+                    "startOffset": 43584,
                     "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 43790
+                    "endOffset": 43800
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3273,10 +3273,10 @@
                 "to": {
                     "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 43795,
+                    "startOffset": 43805,
                     "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 44035
+                    "endOffset": 44045
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3286,10 +3286,10 @@
                 "to": {
                     "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 44040,
+                    "startOffset": 44050,
                     "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 44330
+                    "endOffset": 44340
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3299,10 +3299,10 @@
                 "to": {
                     "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 44335,
+                    "startOffset": 44345,
                     "endLine": 422,
                     "endColumn": 12,
-                    "endOffset": 44552
+                    "endOffset": 44562
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3312,10 +3312,10 @@
                 "to": {
                     "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 44557,
+                    "startOffset": 44567,
                     "endLine": 425,
                     "endColumn": 12,
-                    "endOffset": 44790
+                    "endOffset": 44800
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3325,10 +3325,10 @@
                 "to": {
                     "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 44795,
+                    "startOffset": 44805,
                     "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 45004
+                    "endOffset": 45014
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3338,10 +3338,10 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 45009,
+                    "startOffset": 45019,
                     "endLine": 431,
                     "endColumn": 12,
-                    "endOffset": 45234
+                    "endOffset": 45244
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3351,10 +3351,10 @@
                 "to": {
                     "startLine": 432,
                     "startColumn": 4,
-                    "startOffset": 45239,
+                    "startOffset": 45249,
                     "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 45457
+                    "endOffset": 45467
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3364,10 +3364,10 @@
                 "to": {
                     "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 45462,
+                    "startOffset": 45472,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 45672
+                    "endOffset": 45682
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3377,10 +3377,10 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 45677,
+                    "startOffset": 45687,
                     "endLine": 440,
                     "endColumn": 12,
-                    "endOffset": 45880
+                    "endOffset": 45890
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3390,10 +3390,10 @@
                 "to": {
                     "startLine": 441,
                     "startColumn": 4,
-                    "startOffset": 45885,
+                    "startOffset": 45895,
                     "endLine": 442,
                     "endColumn": 12,
-                    "endOffset": 46004
+                    "endOffset": 46014
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3403,10 +3403,10 @@
                 "to": {
                     "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 46009,
+                    "startOffset": 46019,
                     "endLine": 444,
                     "endColumn": 12,
-                    "endOffset": 46128
+                    "endOffset": 46138
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3416,9 +3416,9 @@
                 "to": {
                     "startLine": 445,
                     "startColumn": 4,
-                    "startOffset": 46133,
+                    "startOffset": 46143,
                     "endColumn": 104,
-                    "endOffset": 46233
+                    "endOffset": 46243
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3428,9 +3428,9 @@
                 "to": {
                     "startLine": 446,
                     "startColumn": 4,
-                    "startOffset": 46238,
+                    "startOffset": 46248,
                     "endColumn": 116,
-                    "endOffset": 46350
+                    "endOffset": 46360
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3440,10 +3440,10 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 46355,
+                    "startOffset": 46365,
                     "endLine": 449,
                     "endColumn": 12,
-                    "endOffset": 46564
+                    "endOffset": 46574
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3453,10 +3453,10 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 46569,
+                    "startOffset": 46579,
                     "endLine": 451,
                     "endColumn": 12,
-                    "endOffset": 46710
+                    "endOffset": 46720
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3466,10 +3466,10 @@
                 "to": {
                     "startLine": 452,
                     "startColumn": 4,
-                    "startOffset": 46715,
+                    "startOffset": 46725,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 46850
+                    "endOffset": 46860
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3479,10 +3479,10 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 46855,
+                    "startOffset": 46865,
                     "endLine": 455,
                     "endColumn": 12,
-                    "endOffset": 46936
+                    "endOffset": 46946
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3492,10 +3492,10 @@
                 "to": {
                     "startLine": 456,
                     "startColumn": 4,
-                    "startOffset": 46941,
+                    "startOffset": 46951,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 47284
+                    "endOffset": 47294
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3505,9 +3505,9 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 47289,
+                    "startOffset": 47299,
                     "endColumn": 87,
-                    "endOffset": 47372
+                    "endOffset": 47382
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3517,10 +3517,10 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 47377,
+                    "startOffset": 47387,
                     "endLine": 465,
                     "endColumn": 12,
-                    "endOffset": 47602
+                    "endOffset": 47612
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3530,10 +3530,10 @@
                 "to": {
                     "startLine": 466,
                     "startColumn": 4,
-                    "startOffset": 47607,
+                    "startOffset": 47617,
                     "endLine": 471,
                     "endColumn": 12,
-                    "endOffset": 48004
+                    "endOffset": 48014
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3543,10 +3543,10 @@
                 "to": {
                     "startLine": 472,
                     "startColumn": 4,
-                    "startOffset": 48009,
+                    "startOffset": 48019,
                     "endLine": 475,
                     "endColumn": 12,
-                    "endOffset": 48237
+                    "endOffset": 48247
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3556,9 +3556,9 @@
                 "to": {
                     "startLine": 476,
                     "startColumn": 4,
-                    "startOffset": 48242,
+                    "startOffset": 48252,
                     "endColumn": 81,
-                    "endOffset": 48319
+                    "endOffset": 48329
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3568,10 +3568,10 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 48324,
+                    "startOffset": 48334,
                     "endLine": 478,
                     "endColumn": 12,
-                    "endOffset": 48417
+                    "endOffset": 48427
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3581,10 +3581,10 @@
                 "to": {
                     "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 48422,
+                    "startOffset": 48432,
                     "endLine": 489,
                     "endColumn": 12,
-                    "endOffset": 49009
+                    "endOffset": 49019
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3594,9 +3594,9 @@
                 "to": {
                     "startLine": 490,
                     "startColumn": 4,
-                    "startOffset": 49014,
+                    "startOffset": 49024,
                     "endColumn": 99,
-                    "endOffset": 49109
+                    "endOffset": 49119
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3606,10 +3606,10 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 49114,
+                    "startOffset": 49124,
                     "endLine": 494,
                     "endColumn": 12,
-                    "endOffset": 49345
+                    "endOffset": 49355
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3619,10 +3619,10 @@
                 "to": {
                     "startLine": 495,
                     "startColumn": 4,
-                    "startOffset": 49350,
+                    "startOffset": 49360,
                     "endLine": 500,
                     "endColumn": 12,
-                    "endOffset": 49753
+                    "endOffset": 49763
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3632,10 +3632,10 @@
                 "to": {
                     "startLine": 501,
                     "startColumn": 4,
-                    "startOffset": 49758,
+                    "startOffset": 49768,
                     "endLine": 504,
                     "endColumn": 12,
-                    "endOffset": 49992
+                    "endOffset": 50002
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3645,9 +3645,9 @@
                 "to": {
                     "startLine": 505,
                     "startColumn": 4,
-                    "startOffset": 49997,
+                    "startOffset": 50007,
                     "endColumn": 93,
-                    "endOffset": 50086
+                    "endOffset": 50096
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3657,9 +3657,9 @@
                 "to": {
                     "startLine": 506,
                     "startColumn": 4,
-                    "startOffset": 50091,
+                    "startOffset": 50101,
                     "endColumn": 57,
-                    "endOffset": 50144
+                    "endOffset": 50154
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3669,10 +3669,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 50149,
+                    "startOffset": 50159,
                     "endLine": 510,
                     "endColumn": 12,
-                    "endOffset": 50381
+                    "endOffset": 50391
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3682,10 +3682,10 @@
                 "to": {
                     "startLine": 511,
                     "startColumn": 4,
-                    "startOffset": 50386,
+                    "startOffset": 50396,
                     "endLine": 537,
                     "endColumn": 12,
-                    "endOffset": 52399
+                    "endOffset": 52409
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3695,10 +3695,10 @@
                 "to": {
                     "startLine": 538,
                     "startColumn": 4,
-                    "startOffset": 52404,
+                    "startOffset": 52414,
                     "endLine": 541,
                     "endColumn": 12,
-                    "endOffset": 52641
+                    "endOffset": 52651
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3708,10 +3708,10 @@
                 "to": {
                     "startLine": 542,
                     "startColumn": 4,
-                    "startOffset": 52646,
+                    "startOffset": 52656,
                     "endLine": 569,
                     "endColumn": 12,
-                    "endOffset": 54791
+                    "endOffset": 54801
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3721,10 +3721,10 @@
                 "to": {
                     "startLine": 570,
                     "startColumn": 4,
-                    "startOffset": 54796,
+                    "startOffset": 54806,
                     "endLine": 714,
                     "endColumn": 12,
-                    "endOffset": 63505
+                    "endOffset": 63515
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3734,10 +3734,10 @@
                 "to": {
                     "startLine": 715,
                     "startColumn": 4,
-                    "startOffset": 63510,
+                    "startOffset": 63520,
                     "endLine": 736,
                     "endColumn": 12,
-                    "endOffset": 64772
+                    "endOffset": 64782
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3747,10 +3747,10 @@
                 "to": {
                     "startLine": 737,
                     "startColumn": 4,
-                    "startOffset": 64777,
+                    "startOffset": 64787,
                     "endLine": 881,
                     "endColumn": 12,
-                    "endOffset": 73596
+                    "endOffset": 73606
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3760,10 +3760,10 @@
                 "to": {
                     "startLine": 882,
                     "startColumn": 4,
-                    "startOffset": 73601,
+                    "startOffset": 73611,
                     "endLine": 903,
                     "endColumn": 12,
-                    "endOffset": 74877
+                    "endOffset": 74887
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3773,10 +3773,10 @@
                 "to": {
                     "startLine": 904,
                     "startColumn": 4,
-                    "startOffset": 74882,
+                    "startOffset": 74892,
                     "endLine": 910,
                     "endColumn": 12,
-                    "endOffset": 75413
+                    "endOffset": 75423
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3786,10 +3786,10 @@
                 "to": {
                     "startLine": 911,
                     "startColumn": 4,
-                    "startOffset": 75418,
+                    "startOffset": 75428,
                     "endLine": 915,
                     "endColumn": 12,
-                    "endOffset": 75743
+                    "endOffset": 75753
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3799,10 +3799,10 @@
                 "to": {
                     "startLine": 916,
                     "startColumn": 4,
-                    "startOffset": 75748,
+                    "startOffset": 75758,
                     "endLine": 936,
                     "endColumn": 12,
-                    "endOffset": 76866
+                    "endOffset": 76876
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3812,10 +3812,10 @@
                 "to": {
                     "startLine": 937,
                     "startColumn": 4,
-                    "startOffset": 76871,
+                    "startOffset": 76881,
                     "endLine": 941,
                     "endColumn": 12,
-                    "endOffset": 77122
+                    "endOffset": 77132
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3825,10 +3825,10 @@
                 "to": {
                     "startLine": 942,
                     "startColumn": 4,
-                    "startOffset": 77127,
+                    "startOffset": 77137,
                     "endLine": 946,
                     "endColumn": 12,
-                    "endOffset": 77358
+                    "endOffset": 77368
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3838,10 +3838,10 @@
                 "to": {
                     "startLine": 947,
                     "startColumn": 4,
-                    "startOffset": 77363,
+                    "startOffset": 77373,
                     "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 77905
+                    "endOffset": 77915
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3851,10 +3851,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 77910,
+                    "startOffset": 77920,
                     "endLine": 965,
                     "endColumn": 12,
-                    "endOffset": 78399
+                    "endOffset": 78409
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3864,10 +3864,10 @@
                 "to": {
                     "startLine": 966,
                     "startColumn": 4,
-                    "startOffset": 78404,
+                    "startOffset": 78414,
                     "endLine": 976,
                     "endColumn": 12,
-                    "endOffset": 79072
+                    "endOffset": 79082
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3877,10 +3877,10 @@
                 "to": {
                     "startLine": 977,
                     "startColumn": 4,
-                    "startOffset": 79077,
+                    "startOffset": 79087,
                     "endLine": 980,
                     "endColumn": 12,
-                    "endOffset": 79287
+                    "endOffset": 79297
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3890,10 +3890,10 @@
                 "to": {
                     "startLine": 981,
                     "startColumn": 4,
-                    "startOffset": 79292,
+                    "startOffset": 79302,
                     "endLine": 987,
                     "endColumn": 12,
-                    "endOffset": 79815
+                    "endOffset": 79825
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3903,10 +3903,10 @@
                 "to": {
                     "startLine": 988,
                     "startColumn": 4,
-                    "startOffset": 79820,
+                    "startOffset": 79830,
                     "endLine": 995,
                     "endColumn": 12,
-                    "endOffset": 80379
+                    "endOffset": 80389
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3916,10 +3916,10 @@
                 "to": {
                     "startLine": 996,
                     "startColumn": 4,
-                    "startOffset": 80384,
+                    "startOffset": 80394,
                     "endLine": 1002,
                     "endColumn": 12,
-                    "endOffset": 80754
+                    "endOffset": 80764
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3929,9 +3929,9 @@
                 "to": {
                     "startLine": 1003,
                     "startColumn": 4,
-                    "startOffset": 80759,
+                    "startOffset": 80769,
                     "endColumn": 117,
-                    "endOffset": 80872
+                    "endOffset": 80882
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3941,10 +3941,10 @@
                 "to": {
                     "startLine": 1004,
                     "startColumn": 4,
-                    "startOffset": 80877,
+                    "startOffset": 80887,
                     "endLine": 1012,
                     "endColumn": 12,
-                    "endOffset": 81410
+                    "endOffset": 81420
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3954,10 +3954,10 @@
                 "to": {
                     "startLine": 1013,
                     "startColumn": 4,
-                    "startOffset": 81415,
+                    "startOffset": 81425,
                     "endLine": 1015,
                     "endColumn": 12,
-                    "endOffset": 81567
+                    "endOffset": 81577
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3967,10 +3967,10 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 81572,
+                    "startOffset": 81582,
                     "endLine": 1018,
                     "endColumn": 12,
-                    "endOffset": 81711
+                    "endOffset": 81721
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3980,10 +3980,10 @@
                 "to": {
                     "startLine": 1019,
                     "startColumn": 4,
-                    "startOffset": 81716,
+                    "startOffset": 81726,
                     "endLine": 1023,
                     "endColumn": 12,
-                    "endOffset": 82031
+                    "endOffset": 82041
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -3993,10 +3993,10 @@
                 "to": {
                     "startLine": 1024,
                     "startColumn": 4,
-                    "startOffset": 82036,
+                    "startOffset": 82046,
                     "endLine": 1027,
                     "endColumn": 12,
-                    "endOffset": 82201
+                    "endOffset": 82211
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4006,10 +4006,10 @@
                 "to": {
                     "startLine": 1028,
                     "startColumn": 4,
-                    "startOffset": 82206,
+                    "startOffset": 82216,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 82342
+                    "endOffset": 82352
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4019,10 +4019,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 82347,
+                    "startOffset": 82357,
                     "endLine": 1033,
                     "endColumn": 12,
-                    "endOffset": 82471
+                    "endOffset": 82481
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4032,10 +4032,10 @@
                 "to": {
                     "startLine": 1034,
                     "startColumn": 4,
-                    "startOffset": 82476,
+                    "startOffset": 82486,
                     "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 82770
+                    "endOffset": 82780
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4045,10 +4045,10 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 82775,
+                    "startOffset": 82785,
                     "endLine": 1041,
                     "endColumn": 12,
-                    "endOffset": 83073
+                    "endOffset": 83083
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4058,10 +4058,10 @@
                 "to": {
                     "startLine": 1042,
                     "startColumn": 4,
-                    "startOffset": 83078,
+                    "startOffset": 83088,
                     "endLine": 1049,
                     "endColumn": 12,
-                    "endOffset": 83632
+                    "endOffset": 83642
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4071,10 +4071,10 @@
                 "to": {
                     "startLine": 1050,
                     "startColumn": 4,
-                    "startOffset": 83637,
+                    "startOffset": 83647,
                     "endLine": 1054,
                     "endColumn": 12,
-                    "endOffset": 83894
+                    "endOffset": 83904
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4084,10 +4084,10 @@
                 "to": {
                     "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 83899,
+                    "startOffset": 83909,
                     "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 84244
+                    "endOffset": 84254
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4097,10 +4097,10 @@
                 "to": {
                     "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 84249,
+                    "startOffset": 84259,
                     "endLine": 1067,
                     "endColumn": 12,
-                    "endOffset": 84597
+                    "endOffset": 84607
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4110,9 +4110,9 @@
                 "to": {
                     "startLine": 1068,
                     "startColumn": 4,
-                    "startOffset": 84602,
+                    "startOffset": 84612,
                     "endColumn": 93,
-                    "endOffset": 84691
+                    "endOffset": 84701
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4122,10 +4122,10 @@
                 "to": {
                     "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 84696,
+                    "startOffset": 84706,
                     "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 84997
+                    "endOffset": 85007
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4135,10 +4135,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 85002,
+                    "startOffset": 85012,
                     "endLine": 1077,
                     "endColumn": 12,
-                    "endOffset": 85259
+                    "endOffset": 85269
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4148,10 +4148,10 @@
                 "to": {
                     "startLine": 1078,
                     "startColumn": 4,
-                    "startOffset": 85264,
+                    "startOffset": 85274,
                     "endLine": 1079,
                     "endColumn": 12,
-                    "endOffset": 85384
+                    "endOffset": 85394
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4161,10 +4161,10 @@
                 "to": {
                     "startLine": 1080,
                     "startColumn": 4,
-                    "startOffset": 85389,
+                    "startOffset": 85399,
                     "endLine": 1081,
                     "endColumn": 12,
-                    "endOffset": 85511
+                    "endOffset": 85521
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4174,10 +4174,10 @@
                 "to": {
                     "startLine": 1082,
                     "startColumn": 4,
-                    "startOffset": 85516,
+                    "startOffset": 85526,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 85750
+                    "endOffset": 85760
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4187,10 +4187,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 85755,
+                    "startOffset": 85765,
                     "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 85961
+                    "endOffset": 85971
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4200,10 +4200,10 @@
                 "to": {
                     "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 85966,
+                    "startOffset": 85976,
                     "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 86080
+                    "endOffset": 86090
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4213,10 +4213,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 86085,
+                    "startOffset": 86095,
                     "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 86273
+                    "endOffset": 86283
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4226,10 +4226,10 @@
                 "to": {
                     "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 86278,
+                    "startOffset": 86288,
                     "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 86728
+                    "endOffset": 86738
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4239,10 +4239,10 @@
                 "to": {
                     "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 86733,
+                    "startOffset": 86743,
                     "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 86909
+                    "endOffset": 86919
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4252,10 +4252,10 @@
                 "to": {
                     "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 86914,
+                    "startOffset": 86924,
                     "endLine": 1106,
                     "endColumn": 12,
-                    "endOffset": 87031
+                    "endOffset": 87041
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4265,10 +4265,10 @@
                 "to": {
                     "startLine": 1107,
                     "startColumn": 4,
-                    "startOffset": 87036,
+                    "startOffset": 87046,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 87290
+                    "endOffset": 87300
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4278,10 +4278,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 87295,
+                    "startOffset": 87305,
                     "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 87403
+                    "endOffset": 87413
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4291,10 +4291,10 @@
                 "to": {
                     "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 87408,
+                    "startOffset": 87418,
                     "endLine": 1116,
                     "endColumn": 12,
-                    "endOffset": 87590
+                    "endOffset": 87600
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4304,10 +4304,10 @@
                 "to": {
                     "startLine": 1117,
                     "startColumn": 4,
-                    "startOffset": 87595,
+                    "startOffset": 87605,
                     "endLine": 1118,
                     "endColumn": 12,
-                    "endOffset": 87692
+                    "endOffset": 87702
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4317,10 +4317,10 @@
                 "to": {
                     "startLine": 1119,
                     "startColumn": 4,
-                    "startOffset": 87697,
+                    "startOffset": 87707,
                     "endLine": 1124,
                     "endColumn": 12,
-                    "endOffset": 88136
+                    "endOffset": 88146
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4330,10 +4330,10 @@
                 "to": {
                     "startLine": 1125,
                     "startColumn": 4,
-                    "startOffset": 88141,
+                    "startOffset": 88151,
                     "endLine": 1126,
                     "endColumn": 12,
-                    "endOffset": 88260
+                    "endOffset": 88270
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4343,10 +4343,10 @@
                 "to": {
                     "startLine": 1127,
                     "startColumn": 4,
-                    "startOffset": 88265,
+                    "startOffset": 88275,
                     "endLine": 1130,
                     "endColumn": 12,
-                    "endOffset": 88545
+                    "endOffset": 88555
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4356,10 +4356,10 @@
                 "to": {
                     "startLine": 1131,
                     "startColumn": 4,
-                    "startOffset": 88550,
+                    "startOffset": 88560,
                     "endLine": 1142,
                     "endColumn": 12,
-                    "endOffset": 89432
+                    "endOffset": 89442
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4369,10 +4369,10 @@
                 "to": {
                     "startLine": 1143,
                     "startColumn": 4,
-                    "startOffset": 89437,
+                    "startOffset": 89447,
                     "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 89726
+                    "endOffset": 89736
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4382,10 +4382,10 @@
                 "to": {
                     "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 89731,
+                    "startOffset": 89741,
                     "endLine": 1153,
                     "endColumn": 12,
-                    "endOffset": 90056
+                    "endOffset": 90066
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4395,10 +4395,10 @@
                 "to": {
                     "startLine": 1154,
                     "startColumn": 4,
-                    "startOffset": 90061,
+                    "startOffset": 90071,
                     "endLine": 1168,
                     "endColumn": 12,
-                    "endOffset": 90976
+                    "endOffset": 90986
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4408,10 +4408,10 @@
                 "to": {
                     "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 90981,
+                    "startOffset": 90991,
                     "endLine": 1171,
                     "endColumn": 12,
-                    "endOffset": 91148
+                    "endOffset": 91158
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4421,10 +4421,10 @@
                 "to": {
                     "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 91153,
+                    "startOffset": 91163,
                     "endLine": 1176,
                     "endColumn": 12,
-                    "endOffset": 91484
+                    "endOffset": 91494
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4434,10 +4434,10 @@
                 "to": {
                     "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 91489,
+                    "startOffset": 91499,
                     "endLine": 1186,
                     "endColumn": 12,
-                    "endOffset": 92150
+                    "endOffset": 92160
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4447,10 +4447,10 @@
                 "to": {
                     "startLine": 1187,
                     "startColumn": 4,
-                    "startOffset": 92155,
+                    "startOffset": 92165,
                     "endLine": 1191,
                     "endColumn": 12,
-                    "endOffset": 92435
+                    "endOffset": 92445
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4460,10 +4460,10 @@
                 "to": {
                     "startLine": 1192,
                     "startColumn": 4,
-                    "startOffset": 92440,
+                    "startOffset": 92450,
                     "endLine": 1201,
                     "endColumn": 12,
-                    "endOffset": 93019
+                    "endOffset": 93029
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -4473,10 +4473,10 @@
                 "to": {
                     "startLine": 1202,
                     "startColumn": 4,
-                    "startOffset": 93024,
+                    "startOffset": 93034,
                     "endLine": 1239,
                     "endColumn": 12,
-                    "endOffset": 95846
+                    "endOffset": 95856
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4486,10 +4486,10 @@
                 "to": {
                     "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 95851,
+                    "startOffset": 95861,
                     "endLine": 1278,
                     "endColumn": 12,
-                    "endOffset": 98814
+                    "endOffset": 98824
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4499,10 +4499,10 @@
                 "to": {
                     "startLine": 1279,
                     "startColumn": 4,
-                    "startOffset": 98819,
+                    "startOffset": 98829,
                     "endLine": 1288,
                     "endColumn": 12,
-                    "endOffset": 99402
+                    "endOffset": 99412
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4512,10 +4512,10 @@
                 "to": {
                     "startLine": 1289,
                     "startColumn": 4,
-                    "startOffset": 99407,
+                    "startOffset": 99417,
                     "endLine": 1297,
                     "endColumn": 12,
-                    "endOffset": 99996
+                    "endOffset": 100006
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4525,10 +4525,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 100001,
+                    "startOffset": 100011,
                     "endLine": 1299,
                     "endColumn": 12,
-                    "endOffset": 100109
+                    "endOffset": 100119
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4538,10 +4538,10 @@
                 "to": {
                     "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 100114,
+                    "startOffset": 100124,
                     "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 100338
+                    "endOffset": 100348
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4551,10 +4551,10 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 100343,
+                    "startOffset": 100353,
                     "endLine": 1307,
                     "endColumn": 12,
-                    "endOffset": 100676
+                    "endOffset": 100686
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4564,10 +4564,10 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 100681,
+                    "startOffset": 100691,
                     "endLine": 1310,
                     "endColumn": 12,
-                    "endOffset": 100836
+                    "endOffset": 100846
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4577,10 +4577,10 @@
                 "to": {
                     "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 100841,
+                    "startOffset": 100851,
                     "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 100988
+                    "endOffset": 100998
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4590,10 +4590,10 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 100993,
+                    "startOffset": 101003,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 101159
+                    "endOffset": 101169
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4603,10 +4603,10 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 101164,
+                    "startOffset": 101174,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 101326
+                    "endOffset": 101336
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4616,10 +4616,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 101331,
+                    "startOffset": 101341,
                     "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 101569
+                    "endOffset": 101579
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4629,10 +4629,10 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 101574,
+                    "startOffset": 101584,
                     "endLine": 1326,
                     "endColumn": 12,
-                    "endOffset": 101739
+                    "endOffset": 101749
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4642,10 +4642,10 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 101744,
+                    "startOffset": 101754,
                     "endLine": 1329,
                     "endColumn": 12,
-                    "endOffset": 101912
+                    "endOffset": 101922
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4655,10 +4655,10 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 101917,
+                    "startOffset": 101927,
                     "endLine": 1332,
                     "endColumn": 12,
-                    "endOffset": 102083
+                    "endOffset": 102093
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4668,10 +4668,10 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 102088,
+                    "startOffset": 102098,
                     "endLine": 1336,
                     "endColumn": 12,
-                    "endOffset": 102357
+                    "endOffset": 102367
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4681,10 +4681,10 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 102362,
+                    "startOffset": 102372,
                     "endLine": 1339,
                     "endColumn": 12,
-                    "endOffset": 102556
+                    "endOffset": 102566
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4694,10 +4694,10 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 102561,
+                    "startOffset": 102571,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 102803
+                    "endOffset": 102813
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4707,9 +4707,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 102808,
+                    "startOffset": 102818,
                     "endColumn": 83,
-                    "endOffset": 102887
+                    "endOffset": 102897
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4719,9 +4719,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 102892,
+                    "startOffset": 102902,
                     "endColumn": 95,
-                    "endOffset": 102983
+                    "endOffset": 102993
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4731,9 +4731,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 102988,
+                    "startOffset": 102998,
                     "endColumn": 95,
-                    "endOffset": 103079
+                    "endOffset": 103089
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4743,9 +4743,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 103084,
+                    "startOffset": 103094,
                     "endColumn": 97,
-                    "endOffset": 103177
+                    "endOffset": 103187
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4755,9 +4755,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 103182,
+                    "startOffset": 103192,
                     "endColumn": 99,
-                    "endOffset": 103277
+                    "endOffset": 103287
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4767,9 +4767,9 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 103282,
+                    "startOffset": 103292,
                     "endColumn": 101,
-                    "endOffset": 103379
+                    "endOffset": 103389
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4779,9 +4779,9 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 103384,
+                    "startOffset": 103394,
                     "endColumn": 101,
-                    "endOffset": 103481
+                    "endOffset": 103491
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4791,9 +4791,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 103486,
+                    "startOffset": 103496,
                     "endColumn": 101,
-                    "endOffset": 103583
+                    "endOffset": 103593
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4803,9 +4803,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 103588,
+                    "startOffset": 103598,
                     "endColumn": 101,
-                    "endOffset": 103685
+                    "endOffset": 103695
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4815,9 +4815,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 103690,
+                    "startOffset": 103700,
                     "endColumn": 101,
-                    "endOffset": 103787
+                    "endOffset": 103797
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4827,9 +4827,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 103792,
+                    "startOffset": 103802,
                     "endColumn": 99,
-                    "endOffset": 103887
+                    "endOffset": 103897
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4839,9 +4839,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 103892,
+                    "startOffset": 103902,
                     "endColumn": 95,
-                    "endOffset": 103983
+                    "endOffset": 103993
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4851,9 +4851,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 103988,
+                    "startOffset": 103998,
                     "endColumn": 111,
-                    "endOffset": 104095
+                    "endOffset": 104105
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4863,9 +4863,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 104100,
+                    "startOffset": 104110,
                     "endColumn": 128,
-                    "endOffset": 104224
+                    "endOffset": 104234
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4875,9 +4875,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 104229,
+                    "startOffset": 104239,
                     "endColumn": 122,
-                    "endOffset": 104347
+                    "endOffset": 104357
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4887,10 +4887,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 104352,
+                    "startOffset": 104362,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 104501
+                    "endOffset": 104511
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4900,10 +4900,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 104506,
+                    "startOffset": 104516,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 104655
+                    "endOffset": 104665
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4913,9 +4913,9 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 104660,
+                    "startOffset": 104670,
                     "endColumn": 97,
-                    "endOffset": 104753
+                    "endOffset": 104763
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4925,9 +4925,9 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 104758,
+                    "startOffset": 104768,
                     "endColumn": 113,
-                    "endOffset": 104867
+                    "endOffset": 104877
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4937,9 +4937,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 104872,
+                    "startOffset": 104882,
                     "endColumn": 93,
-                    "endOffset": 104961
+                    "endOffset": 104971
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4949,10 +4949,10 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 104966,
+                    "startOffset": 104976,
                     "endLine": 1366,
                     "endColumn": 12,
-                    "endOffset": 105101
+                    "endOffset": 105111
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4962,10 +4962,10 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 105106,
+                    "startOffset": 105116,
                     "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 105235
+                    "endOffset": 105245
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4975,9 +4975,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 105240,
+                    "startOffset": 105250,
                     "endColumn": 95,
-                    "endOffset": 105331
+                    "endOffset": 105341
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4987,9 +4987,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 105336,
+                    "startOffset": 105346,
                     "endColumn": 111,
-                    "endOffset": 105443
+                    "endOffset": 105453
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -4999,9 +4999,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 105448,
+                    "startOffset": 105458,
                     "endColumn": 99,
-                    "endOffset": 105543
+                    "endOffset": 105553
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5011,9 +5011,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 105548,
+                    "startOffset": 105558,
                     "endColumn": 115,
-                    "endOffset": 105659
+                    "endOffset": 105669
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5023,9 +5023,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 105664,
+                    "startOffset": 105674,
                     "endColumn": 95,
-                    "endOffset": 105755
+                    "endOffset": 105765
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5035,9 +5035,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 105760,
+                    "startOffset": 105770,
                     "endColumn": 111,
-                    "endOffset": 105867
+                    "endOffset": 105877
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5047,10 +5047,10 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 105872,
+                    "startOffset": 105882,
                     "endLine": 1376,
                     "endColumn": 12,
-                    "endOffset": 106007
+                    "endOffset": 106017
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5060,10 +5060,10 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 106012,
+                    "startOffset": 106022,
                     "endLine": 1378,
                     "endColumn": 12,
-                    "endOffset": 106155
+                    "endOffset": 106165
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5073,10 +5073,10 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 106160,
+                    "startOffset": 106170,
                     "endLine": 1380,
                     "endColumn": 12,
-                    "endOffset": 106319
+                    "endOffset": 106329
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5086,10 +5086,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 106324,
+                    "startOffset": 106334,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 106461
+                    "endOffset": 106471
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5099,10 +5099,10 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 106466,
+                    "startOffset": 106476,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 106619
+                    "endOffset": 106629
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5112,10 +5112,10 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 106624,
+                    "startOffset": 106634,
                     "endLine": 1386,
                     "endColumn": 12,
-                    "endOffset": 106769
+                    "endOffset": 106779
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5125,9 +5125,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 106774,
+                    "startOffset": 106784,
                     "endColumn": 140,
-                    "endOffset": 106910
+                    "endOffset": 106920
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5137,10 +5137,10 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 106915,
+                    "startOffset": 106925,
                     "endLine": 1389,
                     "endColumn": 12,
-                    "endOffset": 107054
+                    "endOffset": 107064
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5150,9 +5150,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 107059,
+                    "startOffset": 107069,
                     "endColumn": 134,
-                    "endOffset": 107189
+                    "endOffset": 107199
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5162,10 +5162,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 107194,
+                    "startOffset": 107204,
                     "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 107325
+                    "endOffset": 107335
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5175,10 +5175,10 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 107330,
+                    "startOffset": 107340,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 107467
+                    "endOffset": 107477
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5188,10 +5188,10 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 107472,
+                    "startOffset": 107482,
                     "endLine": 1396,
                     "endColumn": 12,
-                    "endOffset": 107609
+                    "endOffset": 107619
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5201,9 +5201,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 107614,
+                    "startOffset": 107624,
                     "endColumn": 111,
-                    "endOffset": 107721
+                    "endOffset": 107731
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5213,9 +5213,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 107726,
+                    "startOffset": 107736,
                     "endColumn": 139,
-                    "endOffset": 107861
+                    "endOffset": 107871
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5225,10 +5225,10 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 107866,
+                    "startOffset": 107876,
                     "endLine": 1401,
                     "endColumn": 12,
-                    "endOffset": 108062
+                    "endOffset": 108072
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5238,10 +5238,10 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 108067,
+                    "startOffset": 108077,
                     "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 108229
+                    "endOffset": 108239
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5251,10 +5251,10 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 108234,
+                    "startOffset": 108244,
                     "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 108404
+                    "endOffset": 108414
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5264,10 +5264,10 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 108409,
+                    "startOffset": 108419,
                     "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 108574
+                    "endOffset": 108584
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5277,10 +5277,10 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108579,
+                    "startOffset": 108589,
                     "endLine": 1414,
                     "endColumn": 12,
-                    "endOffset": 108820
+                    "endOffset": 108830
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5290,10 +5290,10 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 108825,
+                    "startOffset": 108835,
                     "endLine": 1419,
                     "endColumn": 12,
-                    "endOffset": 109088
+                    "endOffset": 109098
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -5303,9 +5303,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 109093,
+                    "startOffset": 109103,
                     "endColumn": 67,
-                    "endOffset": 109156
+                    "endOffset": 109166
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5315,9 +5315,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 109161,
+                    "startOffset": 109171,
                     "endColumn": 72,
-                    "endOffset": 109229
+                    "endOffset": 109239
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5327,9 +5327,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 109234,
+                    "startOffset": 109244,
                     "endColumn": 73,
-                    "endOffset": 109303
+                    "endOffset": 109313
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5339,9 +5339,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109308,
+                    "startOffset": 109318,
                     "endColumn": 72,
-                    "endOffset": 109376
+                    "endOffset": 109386
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5351,9 +5351,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109381,
+                    "startOffset": 109391,
                     "endColumn": 73,
-                    "endOffset": 109450
+                    "endOffset": 109460
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5363,10 +5363,10 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109455,
+                    "startOffset": 109465,
                     "endLine": 1426,
                     "endColumn": 12,
-                    "endOffset": 109596
+                    "endOffset": 109606
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5376,10 +5376,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109601,
+                    "startOffset": 109611,
                     "endLine": 1428,
                     "endColumn": 12,
-                    "endOffset": 109740
+                    "endOffset": 109750
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5389,10 +5389,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109745,
+                    "startOffset": 109755,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 109878
+                    "endOffset": 109888
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5402,9 +5402,9 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109883,
+                    "startOffset": 109893,
                     "endColumn": 65,
-                    "endOffset": 109944
+                    "endOffset": 109954
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5414,9 +5414,9 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 109949,
+                    "startOffset": 109959,
                     "endColumn": 89,
-                    "endOffset": 110034
+                    "endOffset": 110044
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5426,9 +5426,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 110039,
+                    "startOffset": 110049,
                     "endColumn": 79,
-                    "endOffset": 110114
+                    "endOffset": 110124
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5438,9 +5438,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 110119,
+                    "startOffset": 110129,
                     "endColumn": 91,
-                    "endOffset": 110206
+                    "endOffset": 110216
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5450,9 +5450,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 110211,
+                    "startOffset": 110221,
                     "endColumn": 97,
-                    "endOffset": 110304
+                    "endOffset": 110314
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5462,10 +5462,10 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110309,
+                    "startOffset": 110319,
                     "endLine": 1437,
                     "endColumn": 12,
-                    "endOffset": 110414
+                    "endOffset": 110424
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5475,9 +5475,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 110419,
+                    "startOffset": 110429,
                     "endColumn": 77,
-                    "endOffset": 110492
+                    "endOffset": 110502
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5487,9 +5487,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 110497,
+                    "startOffset": 110507,
                     "endColumn": 105,
-                    "endOffset": 110598
+                    "endOffset": 110608
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5499,9 +5499,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 110603,
+                    "startOffset": 110613,
                     "endColumn": 91,
-                    "endOffset": 110690
+                    "endOffset": 110700
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5511,9 +5511,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 110695,
+                    "startOffset": 110705,
                     "endColumn": 103,
-                    "endOffset": 110794
+                    "endOffset": 110804
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5523,9 +5523,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110799,
+                    "startOffset": 110809,
                     "endColumn": 109,
-                    "endOffset": 110904
+                    "endOffset": 110914
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5535,10 +5535,10 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110909,
+                    "startOffset": 110919,
                     "endLine": 1444,
                     "endColumn": 12,
-                    "endOffset": 111026
+                    "endOffset": 111036
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5548,10 +5548,10 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 111031,
+                    "startOffset": 111041,
                     "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 111189
+                    "endOffset": 111199
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5561,10 +5561,10 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 111194,
+                    "startOffset": 111204,
                     "endLine": 1452,
                     "endColumn": 12,
-                    "endOffset": 111346
+                    "endOffset": 111356
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5574,9 +5574,9 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 111351,
+                    "startOffset": 111361,
                     "endColumn": 79,
-                    "endOffset": 111426
+                    "endOffset": 111436
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5586,9 +5586,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 111431,
+                    "startOffset": 111441,
                     "endColumn": 99,
-                    "endOffset": 111526
+                    "endOffset": 111536
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5598,9 +5598,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 111531,
+                    "startOffset": 111541,
                     "endColumn": 89,
-                    "endOffset": 111616
+                    "endOffset": 111626
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5610,9 +5610,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111621,
+                    "startOffset": 111631,
                     "endColumn": 109,
-                    "endOffset": 111726
+                    "endOffset": 111736
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5622,9 +5622,9 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111731,
+                    "startOffset": 111741,
                     "endColumn": 91,
-                    "endOffset": 111818
+                    "endOffset": 111828
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5634,10 +5634,10 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 111823,
+                    "startOffset": 111833,
                     "endLine": 1459,
                     "endColumn": 12,
-                    "endOffset": 111918
+                    "endOffset": 111928
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5647,10 +5647,10 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111923,
+                    "startOffset": 111933,
                     "endLine": 1461,
                     "endColumn": 12,
-                    "endOffset": 112030
+                    "endOffset": 112040
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5660,10 +5660,10 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 112035,
+                    "startOffset": 112045,
                     "endLine": 1463,
                     "endColumn": 12,
-                    "endOffset": 112144
+                    "endOffset": 112154
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5673,10 +5673,10 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 112149,
+                    "startOffset": 112159,
                     "endLine": 1465,
                     "endColumn": 12,
-                    "endOffset": 112260
+                    "endOffset": 112270
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5686,10 +5686,10 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 112265,
+                    "startOffset": 112275,
                     "endLine": 1467,
                     "endColumn": 12,
-                    "endOffset": 112376
+                    "endOffset": 112386
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5699,9 +5699,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 112381,
+                    "startOffset": 112391,
                     "endColumn": 93,
-                    "endOffset": 112470
+                    "endOffset": 112480
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5711,9 +5711,9 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 112475,
+                    "startOffset": 112485,
                     "endColumn": 113,
-                    "endOffset": 112584
+                    "endOffset": 112594
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5723,9 +5723,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 112589,
+                    "startOffset": 112599,
                     "endColumn": 117,
-                    "endOffset": 112702
+                    "endOffset": 112712
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5735,10 +5735,10 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 112707,
+                    "startOffset": 112717,
                     "endLine": 1472,
                     "endColumn": 12,
-                    "endOffset": 112804
+                    "endOffset": 112814
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5748,10 +5748,10 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 112809,
+                    "startOffset": 112819,
                     "endLine": 1474,
                     "endColumn": 12,
-                    "endOffset": 112924
+                    "endOffset": 112934
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5761,10 +5761,10 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 112929,
+                    "startOffset": 112939,
                     "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 113046
+                    "endOffset": 113056
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5774,9 +5774,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 113051,
+                    "startOffset": 113061,
                     "endColumn": 81,
-                    "endOffset": 113128
+                    "endOffset": 113138
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5786,9 +5786,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 113133,
+                    "startOffset": 113143,
                     "endColumn": 103,
-                    "endOffset": 113232
+                    "endOffset": 113242
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5798,9 +5798,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 113237,
+                    "startOffset": 113247,
                     "endColumn": 119,
-                    "endOffset": 113352
+                    "endOffset": 113362
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5810,9 +5810,9 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 113357,
+                    "startOffset": 113367,
                     "endColumn": 125,
-                    "endOffset": 113478
+                    "endOffset": 113488
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5822,9 +5822,9 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 113483,
+                    "startOffset": 113493,
                     "endColumn": 93,
-                    "endOffset": 113572
+                    "endOffset": 113582
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5834,9 +5834,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 113577,
+                    "startOffset": 113587,
                     "endColumn": 87,
-                    "endOffset": 113660
+                    "endOffset": 113670
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5846,9 +5846,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 113665,
+                    "startOffset": 113675,
                     "endColumn": 111,
-                    "endOffset": 113772
+                    "endOffset": 113782
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5858,9 +5858,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 113777,
+                    "startOffset": 113787,
                     "endColumn": 115,
-                    "endOffset": 113888
+                    "endOffset": 113898
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5870,9 +5870,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 113893,
+                    "startOffset": 113903,
                     "endColumn": 121,
-                    "endOffset": 114010
+                    "endOffset": 114020
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5882,9 +5882,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 114015,
+                    "startOffset": 114025,
                     "endColumn": 111,
-                    "endOffset": 114122
+                    "endOffset": 114132
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5894,10 +5894,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 114127,
+                    "startOffset": 114137,
                     "endLine": 1489,
                     "endColumn": 12,
-                    "endOffset": 114297
+                    "endOffset": 114307
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5907,9 +5907,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 114302,
+                    "startOffset": 114312,
                     "endColumn": 115,
-                    "endOffset": 114413
+                    "endOffset": 114423
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5919,9 +5919,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 114418,
+                    "startOffset": 114428,
                     "endColumn": 85,
-                    "endOffset": 114499
+                    "endOffset": 114509
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5931,10 +5931,10 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 114504,
+                    "startOffset": 114514,
                     "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 114611
+                    "endOffset": 114621
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5944,10 +5944,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 114616,
+                    "startOffset": 114626,
                     "endLine": 1495,
                     "endColumn": 12,
-                    "endOffset": 114735
+                    "endOffset": 114745
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5957,9 +5957,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 114740,
+                    "startOffset": 114750,
                     "endColumn": 66,
-                    "endOffset": 114802
+                    "endOffset": 114812
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5969,10 +5969,10 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114807,
+                    "startOffset": 114817,
                     "endLine": 1498,
                     "endColumn": 12,
-                    "endOffset": 114928
+                    "endOffset": 114938
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5982,9 +5982,9 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114933,
+                    "startOffset": 114943,
                     "endColumn": 67,
-                    "endOffset": 114996
+                    "endOffset": 115006
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -5994,10 +5994,10 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 115001,
+                    "startOffset": 115011,
                     "endLine": 1501,
                     "endColumn": 12,
-                    "endOffset": 115124
+                    "endOffset": 115134
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6007,10 +6007,10 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 115129,
+                    "startOffset": 115139,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 115268
+                    "endOffset": 115278
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6020,10 +6020,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 115273,
+                    "startOffset": 115283,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 115396
+                    "endOffset": 115406
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6033,9 +6033,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 115401,
+                    "startOffset": 115411,
                     "endColumn": 68,
-                    "endOffset": 115465
+                    "endOffset": 115475
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6045,9 +6045,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 115470,
+                    "startOffset": 115480,
                     "endColumn": 94,
-                    "endOffset": 115560
+                    "endOffset": 115570
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6057,9 +6057,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 115565,
+                    "startOffset": 115575,
                     "endColumn": 114,
-                    "endOffset": 115675
+                    "endOffset": 115685
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6069,9 +6069,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 115680,
+                    "startOffset": 115690,
                     "endColumn": 112,
-                    "endOffset": 115788
+                    "endOffset": 115798
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6081,9 +6081,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 115793,
+                    "startOffset": 115803,
                     "endColumn": 98,
-                    "endOffset": 115887
+                    "endOffset": 115897
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6093,9 +6093,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 115892,
+                    "startOffset": 115902,
                     "endColumn": 108,
-                    "endOffset": 115996
+                    "endOffset": 116006
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6105,9 +6105,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 116001,
+                    "startOffset": 116011,
                     "endColumn": 110,
-                    "endOffset": 116107
+                    "endOffset": 116117
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6117,9 +6117,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 116112,
+                    "startOffset": 116122,
                     "endColumn": 110,
-                    "endOffset": 116218
+                    "endOffset": 116228
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6129,9 +6129,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 116223,
+                    "startOffset": 116233,
                     "endColumn": 100,
-                    "endOffset": 116319
+                    "endOffset": 116329
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6141,9 +6141,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 116324,
+                    "startOffset": 116334,
                     "endColumn": 104,
-                    "endOffset": 116424
+                    "endOffset": 116434
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6153,10 +6153,10 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 116429,
+                    "startOffset": 116439,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 116536
+                    "endOffset": 116546
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6166,10 +6166,10 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 116541,
+                    "startOffset": 116551,
                     "endLine": 1519,
                     "endColumn": 12,
-                    "endOffset": 116666
+                    "endOffset": 116676
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6179,9 +6179,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 116671,
+                    "startOffset": 116681,
                     "endColumn": 90,
-                    "endOffset": 116757
+                    "endOffset": 116767
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6191,9 +6191,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 116762,
+                    "startOffset": 116772,
                     "endColumn": 122,
-                    "endOffset": 116880
+                    "endOffset": 116890
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6203,10 +6203,10 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 116885,
+                    "startOffset": 116895,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 116992
+                    "endOffset": 117002
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6216,9 +6216,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116997,
+                    "startOffset": 117007,
                     "endColumn": 85,
-                    "endOffset": 117078
+                    "endOffset": 117088
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6228,9 +6228,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 117083,
+                    "startOffset": 117093,
                     "endColumn": 103,
-                    "endOffset": 117182
+                    "endOffset": 117192
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6240,10 +6240,10 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 117187,
+                    "startOffset": 117197,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 117290
+                    "endOffset": 117300
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6253,10 +6253,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 117295,
+                    "startOffset": 117305,
                     "endLine": 1529,
                     "endColumn": 12,
-                    "endOffset": 117390
+                    "endOffset": 117400
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6266,10 +6266,10 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 117395,
+                    "startOffset": 117405,
                     "endLine": 1531,
                     "endColumn": 12,
-                    "endOffset": 117508
+                    "endOffset": 117518
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6279,10 +6279,10 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 117513,
+                    "startOffset": 117523,
                     "endLine": 1533,
                     "endColumn": 12,
-                    "endOffset": 117612
+                    "endOffset": 117622
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6292,10 +6292,10 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 117617,
+                    "startOffset": 117627,
                     "endLine": 1535,
                     "endColumn": 12,
-                    "endOffset": 117716
+                    "endOffset": 117726
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6305,10 +6305,10 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 117721,
+                    "startOffset": 117731,
                     "endLine": 1537,
                     "endColumn": 12,
-                    "endOffset": 117842
+                    "endOffset": 117852
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6318,9 +6318,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 117847,
+                    "startOffset": 117857,
                     "endColumn": 87,
-                    "endOffset": 117930
+                    "endOffset": 117940
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6330,9 +6330,9 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 117935,
+                    "startOffset": 117945,
                     "endColumn": 89,
-                    "endOffset": 118020
+                    "endOffset": 118030
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6342,9 +6342,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 118025,
+                    "startOffset": 118035,
                     "endColumn": 109,
-                    "endOffset": 118130
+                    "endOffset": 118140
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6354,9 +6354,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 118135,
+                    "startOffset": 118145,
                     "endColumn": 83,
-                    "endOffset": 118214
+                    "endOffset": 118224
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6366,9 +6366,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 118219,
+                    "startOffset": 118229,
                     "endColumn": 53,
-                    "endOffset": 118268
+                    "endOffset": 118278
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6378,9 +6378,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 118273,
+                    "startOffset": 118283,
                     "endColumn": 121,
-                    "endOffset": 118390
+                    "endOffset": 118400
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6390,9 +6390,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 118395,
+                    "startOffset": 118405,
                     "endColumn": 105,
-                    "endOffset": 118496
+                    "endOffset": 118506
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6402,9 +6402,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 118501,
+                    "startOffset": 118511,
                     "endColumn": 109,
-                    "endOffset": 118606
+                    "endOffset": 118616
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6414,9 +6414,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 118611,
+                    "startOffset": 118621,
                     "endColumn": 83,
-                    "endOffset": 118690
+                    "endOffset": 118700
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6426,9 +6426,9 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 118695,
+                    "startOffset": 118705,
                     "endColumn": 125,
-                    "endOffset": 118816
+                    "endOffset": 118826
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml"
@@ -6438,10 +6438,10 @@
                 "to": {
                     "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 118821,
+                    "startOffset": 118831,
                     "endLine": 1551,
                     "endColumn": 12,
-                    "endOffset": 119027
+                    "endOffset": 119037
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6451,10 +6451,10 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 119032,
+                    "startOffset": 119042,
                     "endLine": 1557,
                     "endColumn": 12,
-                    "endOffset": 119458
+                    "endOffset": 119468
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6464,10 +6464,10 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 119463,
+                    "startOffset": 119473,
                     "endLine": 1560,
                     "endColumn": 12,
-                    "endOffset": 119617
+                    "endOffset": 119627
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6477,10 +6477,10 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 119622,
+                    "startOffset": 119632,
                     "endLine": 1569,
                     "endColumn": 12,
-                    "endOffset": 120156
+                    "endOffset": 120166
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6490,10 +6490,10 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 120161,
+                    "startOffset": 120171,
                     "endLine": 1575,
                     "endColumn": 12,
-                    "endOffset": 120503
+                    "endOffset": 120513
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6503,10 +6503,10 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 120508,
+                    "startOffset": 120518,
                     "endLine": 1578,
                     "endColumn": 12,
-                    "endOffset": 120632
+                    "endOffset": 120642
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6516,10 +6516,10 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 120637,
+                    "startOffset": 120647,
                     "endLine": 1588,
                     "endColumn": 12,
-                    "endOffset": 121327
+                    "endOffset": 121337
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6529,10 +6529,10 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 121332,
+                    "startOffset": 121342,
                     "endLine": 1592,
                     "endColumn": 12,
-                    "endOffset": 121507
+                    "endOffset": 121517
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"
@@ -6542,10 +6542,10 @@
                 "to": {
                     "startLine": 1593,
                     "startColumn": 4,
-                    "startOffset": 121512,
+                    "startOffset": 121522,
                     "endLine": 1596,
                     "endColumn": 12,
-                    "endOffset": 121757
+                    "endOffset": 121767
                 },
                 "from": {
                     "file": "/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml"

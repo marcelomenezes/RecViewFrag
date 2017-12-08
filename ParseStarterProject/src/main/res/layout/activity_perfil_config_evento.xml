@@ -7,7 +7,8 @@
     android:fitsSystemWindows="true"
     tools:context="com.parse.starter.activity.PerfilConfigEventoActivity">
 
-
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_perfil_config_evento"/>
 
     <include layout="@layout/content_perfil_config_evento" />
 
