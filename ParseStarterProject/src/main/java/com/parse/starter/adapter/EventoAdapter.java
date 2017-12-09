@@ -48,8 +48,8 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
         }
 
         //Recupera os elementos para exibição
-        TextView textEvento = (TextView) view.findViewById(R.id.text_nome_evento);
-        TextView textCidadeEvento = (TextView) view.findViewById(R.id.text_cidade_evento);
+        TextView textNomeEvento = (TextView) view.findViewById(R.id.text_nome_lista_evento);
+        TextView textEnderecoEvento = (TextView) view.findViewById(R.id.text_endereco_lista_evento);
 
         ImageView imagemEvento = (ImageView) view.findViewById(R.id.imagem_lista_evento);
 
@@ -59,8 +59,10 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
 
             //Configurar TextView para exibir os eventos
             ParseObject parseObject = eventos_listados.get(position);
-            textEvento.setText(parseObject.getString("introducao"));
-            textCidadeEvento.setText(parseObject.getString("cidade"));
+            textNomeEvento.setText(parseObject.getString("nomeEvento"));
+            textEnderecoEvento.setText(parseObject.getString("detalhesEvento"));
+
+
 
 
             Picasso.with(context)

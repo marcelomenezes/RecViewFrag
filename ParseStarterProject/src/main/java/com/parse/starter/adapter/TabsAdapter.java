@@ -9,6 +9,7 @@ import android.support.v4.content.ContextCompat;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.ImageSpan;
+import android.view.ViewGroup;
 
 import com.parse.starter.R;
 import com.parse.starter.fragments.ArtistaFragment;
@@ -46,7 +47,7 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
         switch (position){
             case 0 :
                 fragment = new ArtistaFragment();
-                //fragmentosUtilizados.put(position, fragment);
+                fragmentosUtilizados.put(position, fragment);
                 break;
 
             case 1 :
@@ -55,6 +56,12 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
                 break;
         }
         return fragment;
+    }
+
+    @Override
+    public void destroyItem(ViewGroup container, int position, Object object){
+        super.destroyItem(container,position,object);
+        fragmentosUtilizados.remove(position);
     }
 
     public Fragment getFragment(Integer indice){

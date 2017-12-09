@@ -1,11 +1,13 @@
 package com.parse.starter.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -15,6 +17,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.starter.R;
+import com.parse.starter.activity.PerfilEventoActivity;
 import com.parse.starter.adapter.ArtistaAdapter;
 import com.parse.starter.adapter.EventoAdapter;
 
@@ -54,6 +57,24 @@ public class EventoFragment extends Fragment {
         listView.setAdapter(adapter);
 
         getEventosListados();
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                //Recupera os dados da listview
+                ParseObject parseObject = eventos_listados.get(position);
+
+                //Enviar os daos para a PerfilEventoActivity
+                Intent intent = new Intent(getActivity(), PerfilEventoActivity.class);
+                intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+                intent.putExtra("nomeEvento", parseObject.getString("nomeEvento"));
+                intent.putExtra("detalhesEvento", parseObject.getString("detalhesEvento"));
+                intent.putExtra("enderecoEvento", parseObject.getString("enderecoEvento"));
+
+                startActivity(intent);
+
+            }
+        });
 
         return view;
     }

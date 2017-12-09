@@ -21,14 +21,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
-            android:id="@+id/text_nome_evento"
+            android:id="@+id/text_nome_lista_evento"
             android:textSize="20sp"
             android:padding="5dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/cinzaEscuro"
-            android:id="@+id/text_cidade_evento"
+            android:id="@+id/text_endereco_lista_evento"
             android:textSize="15sp"
             android:padding="2dp"/>
         

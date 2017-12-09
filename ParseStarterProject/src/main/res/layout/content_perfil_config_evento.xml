@@ -33,19 +33,19 @@
             android:layout_below="@+id/imagem_evento_config" />
 
         <EditText
-            android:hint="Cidade do Evento"
+            android:hint="Nome do Evento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:layout_below="@+id/text_data_evento"
-            android:id="@+id/text_config_cidade_evento" />
+            android:id="@+id/text_config_nome_evento" />
 
         <EditText
-            android:hint="Descrição"
+            android:hint="Detalhes do Evento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/text_config_cidade_evento"
+            android:layout_below="@+id/text_config_nome_evento"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:id="@+id/text_config_introducao_evento"/>
@@ -56,13 +56,14 @@
             android:layout_below="@+id/text_config_introducao_evento"
             android:layout_marginTop="30dp"
             android:layout_centerHorizontal="true"
-            android:id="@+id/endereco_evento"/>
+            android:hint="Endereço"
+            android:id="@+id/endereco_config_evento"/>
 
         <Button
             android:text="Salvar Evento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/endereco_evento"
+            android:layout_below="@+id/endereco_config_evento"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:id="@+id/botao_salvar_evento"/>
@@ -71,9 +72,10 @@
             android:text="Escolher Imagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_alignBottom="@+id/imagem_evento_config"
             android:layout_toRightOf="@+id/imagem_evento_config"
-            android:layout_toEndOf="@+id/text_config_cidade_evento"
+            android:layout_toEndOf="@+id/text_config_nome_evento"
             android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
             android:id="@+id/botao_escolher_imagem_evento" />

@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -21,6 +24,10 @@ import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
+import com.parse.starter.adapter.TabsAdapter;
+import com.parse.starter.fragments.EventoFragment;
+import com.parse.starter.activity.MainActivity;
+import com.parse.starter.util.SlidingTabLayout;
 import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
@@ -33,21 +40,28 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
     private Button botaoEscolherImagem;
     private Button botaoSalvarEvento;
 
-    private EditText cidadeNomeEditText;
-    private EditText descricaoEditText;
-    private EditText enderecoEditText;
+    private EditText nomeEventoEditText;
+    private EditText detalhesEventoEditText;
+    private EditText enderecoEventoEditText;
     private EditText dataEventoSalva;
 
     private ImageView imagemEventoConfig;
 
     private Toolbar toolbar;
 
-    private String cidadeNome;
-    private String descricao;
+    private String nomeEvento;
+    private String detalhesEvento;
+    private String enderecoEvento;
 
     private ParseObject imagemPassada;
 
     private Date dataEvento;
+
+    private ViewPager viewPager;
+    private SlidingTabLayout slidingTabLayout;
+    private ListView listView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,11 +71,21 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
         botaoEscolherImagem = (Button) findViewById(R.id.botao_escolher_imagem_evento);
         botaoSalvarEvento = (Button) findViewById(R.id.botao_salvar_evento);
 
-        cidadeNomeEditText = (EditText) findViewById(R.id.text_config_cidade_evento);
-        descricaoEditText = (EditText) findViewById(R.id.text_config_introducao_evento);
-        enderecoEditText = (EditText) findViewById(R.id.endereco_evento);
+        nomeEventoEditText = (EditText) findViewById(R.id.text_config_nome_evento);
+        detalhesEventoEditText = (EditText) findViewById(R.id.text_config_introducao_evento);
+        enderecoEventoEditText = (EditText) findViewById(R.id.endereco_config_evento);
 
         imagemEventoConfig = (ImageView) findViewById(R.id.imagem_evento_config);
+
+        listView = (ListView) findViewById(R.id.lista_eventos);
+
+        //configura as abas
+
+        viewPager = (ViewPager) findViewById(R.id.view_pager_main);
+
+        //configura o adapter
+        //configurar adapter para atualização de lista do fragment
+
 
 
         botaoEscolherImagem.setOnClickListener(new View.OnClickListener() {
@@ -81,8 +105,8 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
 
         //associando o textview aos valores passados pelo intent
-        cidadeNomeEditText.setText(cidadeNome);
-        descricaoEditText.setText(descricao);
+        //nomeEventoEditText.setText(nomeEvento);
+        //detalhesEventoEditText.setText(detalhesEvento);
 
 
     }
@@ -105,14 +129,14 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
                 //comprimir no formato PNG
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                imagem.compress(Bitmap.CompressFormat.PNG, 75, stream);
+                imagem.compress(Bitmap.CompressFormat.PNG, 25, stream);
 
                 //Cria um array de bytes da imagem
                 byte[] byteArray = stream.toByteArray();
 
                 //Criar um arquivo com formato próprio do parse
                 SimpleDateFormat dateFormat = new SimpleDateFormat("ddmmaaaahhmmss");
-                String nomeImagem = dateFormat.format( new Date());
+                final String nomeImagem = dateFormat.format( new Date());
                 final ParseFile arquivoParse = new ParseFile( nomeImagem + "imagem.png", byteArray);
 
 
@@ -132,13 +156,15 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
                         ParseObject parseEvento = new ParseObject("Evento");
                         parseEvento.put("imagem", arquivoParse);
 
-                        cidadeNome = cidadeNomeEditText.getText().toString();
-                        descricao = descricaoEditText.getText().toString();
+                        nomeEvento = nomeEventoEditText.getText().toString();
+                        detalhesEvento = detalhesEventoEditText.getText().toString();
+                        enderecoEvento = enderecoEventoEditText.getText().toString();
                         //dataEvento = dataEventoSalva.getText().
 
                         parseEvento.put("username", ParseUser.getCurrentUser());
-                        parseEvento.put("cidade", cidadeNome);
-                        parseEvento.put("introducao", descricao);
+                        parseEvento.put("nomeEvento", nomeEvento);
+                        parseEvento.put("detalhesEvento", detalhesEvento);
+                        parseEvento.put("enderecoEvento", enderecoEvento);
 
                         //salvar os dados
                         parseEvento.saveInBackground(new SaveCallback() {
@@ -147,13 +173,14 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
                                 if (e == null) { //sucesso
                                     Toast.makeText(getApplicationContext(), "Seu evento foi postado.", Toast.LENGTH_LONG).show();
+                                    /*
+                                    //atualizar a lista de novos eventos adicionados
+                                    TabsAdapter adapterNovo = (TabsAdapter) listView.getAdapter();
+                                    EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
+                                    eventoFragmentoNovo.atualizaEventos();
+                                    */
                                     finish();
-                            /*
-                            //atualizar a lista de novos eventos adicionados
-                            TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();
-                            EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
-                            eventoFragmentoNovo.atualizaEventos();
-                               */
+
                                 } else {//erro
                                     Toast.makeText(getApplicationContext(), "Erro ao postar evento - Tente Novamente!",
                                             Toast.LENGTH_LONG).show();

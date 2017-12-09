@@ -153,7 +153,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
                 //comprimir no formato PNG
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                imagem.compress(Bitmap.CompressFormat.PNG, 75, stream);
+                imagem.compress(Bitmap.CompressFormat.PNG, 25, stream);
 
                 //Cria um array de bytes da imagem
                 byte[] byteArray = stream.toByteArray();

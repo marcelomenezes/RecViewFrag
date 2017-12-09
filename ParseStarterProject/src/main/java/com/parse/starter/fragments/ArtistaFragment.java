@@ -74,7 +74,7 @@ public class ArtistaFragment extends Fragment {
                 //Recupera os dados da listview para serem passados.
                 ParseObject parseObject = artistas.get(position);
 
-                //enviar dados para feed usuário
+                //enviar dados para o PerfilArtista
                 Intent intent = new Intent(getActivity(), PerfilArtistaActivity.class);
                 intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
                 intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
