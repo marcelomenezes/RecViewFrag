@@ -67,10 +67,8 @@ public class CadastroActivity extends AppCompatActivity {
         usuario.setEmail( cadastroEmail.getText().toString() );
         usuario.setPassword( cadastroSenha.getText().toString() );
         usuario.put("nomeArtista", cadastroNome.getText().toString() );
-        usuario.put("cidade", "Recife");
 
-        //usuario.put("imagem", imagemPadrao);
-        usuario.put("introducao", "lalal");
+
 
 
 

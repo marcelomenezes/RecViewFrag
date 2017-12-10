@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="22"
+    api-level="23"
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="65845692296376"
+    timestamp="72555509354136"
     token="2655567612947879165"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1948" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="233" />
+        duration="0" />
     <task
         name="verifier"
-        duration="84" />
-
-    <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        duration="0" />
 
     <build
-        timestamp="65845692296376"
+        timestamp="72430215107718"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="72555509354136"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

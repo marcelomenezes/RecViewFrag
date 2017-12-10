@@ -91,13 +91,14 @@ public class EventoFragment extends Fragment {
             public void done(List<ParseObject> objects, ParseException e) {
 
                 if(e==null){//sucesso
-
+                    //verifica se já existem eventos listados
                     if(objects.size()>0){
                         eventos_listados.clear();
                         for (ParseObject parseObject : objects){
                             eventos_listados.add(parseObject);
                         }
                         adapter.notifyDataSetChanged();
+                        atualizaEventos();
                     }
 
                 }else {//erro

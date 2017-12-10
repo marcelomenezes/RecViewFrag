@@ -2313,6 +2313,8 @@ containing a value of this type.
         public static final int AlertDialog_AppCompat_Light=0x7f080075;
         public static final int Animation_AppCompat_Dialog=0x7f080076;
         public static final int Animation_AppCompat_DropDownUp=0x7f080077;
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f080078;
         public static final int AppTheme_AppBarOverlay=0x7f080079;
         public static final int AppTheme_PopupOverlay=0x7f08007a;

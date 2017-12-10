@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -60,6 +61,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private SlidingTabLayout slidingTabLayout;
     private ListView listView;
+    private ListAdapter listAdapter;
 
 
 
@@ -83,8 +85,10 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.view_pager_main);
 
+
         //configura o adapter
         //configurar adapter para atualização de lista do fragment
+
 
 
 
@@ -100,7 +104,12 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_config_evento);
         toolbar.setTitle("Adicionar Evento");
         toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
-        setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
 
 
@@ -129,7 +138,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
                 //comprimir no formato PNG
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                imagem.compress(Bitmap.CompressFormat.PNG, 25, stream);
+                imagem.compress(Bitmap.CompressFormat.PNG, 5, stream);
 
                 //Cria um array de bytes da imagem
                 byte[] byteArray = stream.toByteArray();
@@ -166,6 +175,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
                         parseEvento.put("detalhesEvento", detalhesEvento);
                         parseEvento.put("enderecoEvento", enderecoEvento);
 
+
                         //salvar os dados
                         parseEvento.saveInBackground(new SaveCallback() {
                             @Override
@@ -178,8 +188,9 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
                                     TabsAdapter adapterNovo = (TabsAdapter) listView.getAdapter();
                                     EventoFragment eventoFragmentoNovo = (EventoFragment) adapterNovo.getFragment(1);
                                     eventoFragmentoNovo.atualizaEventos();
-                                    */
+*/
                                     finish();
+
 
                                 } else {//erro
                                     Toast.makeText(getApplicationContext(), "Erro ao postar evento - Tente Novamente!",
