@@ -47,7 +47,13 @@ public class PerfilEventoActivity extends AppCompatActivity {
         toolbar.setTitle(nomeEvento);
         toolbar.setTitleTextColor(R.color.preta);
         toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
-        setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+        //setSupportActionBar(toolbar);
 
         //Passar os valores pra o TextView
         nomeEventoText = (TextView) findViewById(R.id.text_nome_evento);

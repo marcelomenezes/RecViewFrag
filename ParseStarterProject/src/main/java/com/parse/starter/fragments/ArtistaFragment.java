@@ -82,9 +82,6 @@ public class ArtistaFragment extends Fragment {
                 intent.putExtra("introducao", parseObject.getString("introducao"));
 
 
-
-
-
                 startActivity(intent);
             }
         });
