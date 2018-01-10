@@ -1,6 +1,7 @@
 package com.parse.starter.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import com.parse.starter.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by marcelomenezes on 19/09/17.
@@ -22,10 +24,10 @@ import java.util.ArrayList;
 public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
 
     private Context context;
-    private ArrayList<ParseObject> artistas;
+    private List<ParseObject> artistas;
 
-    public ArtistaAdapter(Context c, ArrayList<ParseObject> objects) {
-        super(c, 0, objects);
+    public ArtistaAdapter(Context c, List<ParseObject> objects) {
+        super(c,0, objects);
         this.context = c;
         this.artistas = objects;
     }
@@ -35,6 +37,7 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
 
         View view = convertView;
 
+        ViewHolder holder = null;
 
         /*
         Verifica se não tem view criada
@@ -46,32 +49,46 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
 
             //Monta a partir do xml
             view = inflater.inflate(R.layout.lista_artistas, parent, false);
+            holder = new ViewHolder();
+
+            //Recuperar elementos para exibição
+            holder.textArtistas = (TextView) view.findViewById(R.id.text_artistas);
+            holder.textCidade = (TextView) view.findViewById(R.id.text_cidade);
+            //recuperar imagem para lista de artista
+            holder.artistaPostagem = (ImageView) view.findViewById(R.id.icone_artista);
+
+            //verifica se tem artistas cadastrados
+            if(artistas.size() > 0) {
+                //Configurar textview para exibir artistas
+                ParseObject parseObject = artistas.get(position);
+                holder.textArtistas.setText(parseObject.getString("nomeArtista"));
+                holder.textCidade.setText(parseObject.getString("cidade"));
+
+                Picasso.with(context)
+                        .load( parseObject.getParseFile("imagem").getUrl())
+                        .fit()
+                        .into(holder.artistaPostagem);
         }
 
-        //Recuperar elementos para exibição
-        TextView textArtistas = (TextView) view.findViewById(R.id.text_artistas);
-        TextView textCidade = (TextView) view.findViewById(R.id.text_cidade);
-        //recuperar imagem para lista de artista
-        ImageView artistaPostagem = (ImageView) view.findViewById(R.id.icone_artista);
 
-        //ImageView imagemPerfilConfig = (ImageView) view.findViewById(R.id.imagem_perfil_config);
 
-        //verifica se tem artistas cadastrados
-        if(artistas.size() > 0) {
-            //Configurar textview para exibir artistas
-            ParseObject parseObject = artistas.get(position);
-            textArtistas.setText(parseObject.getString("nomeArtista"));
-            textCidade.setText(parseObject.getString("cidade"));
 
-            Picasso.with(context)
-                    .load( parseObject.getParseFile("imagem").getUrl())
-                    .fit()
-                    .into(artistaPostagem);
+
+
+
         }
-
 
 
 
         return view;
     }
+
+    static class ViewHolder{
+        TextView textArtistas;
+        TextView textCidade;
+        ImageView artistaPostagem;
+
+    }
+
+
 }

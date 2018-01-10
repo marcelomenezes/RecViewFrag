@@ -8,15 +8,19 @@
  */
 package com.parse.starter.activity;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
@@ -50,7 +54,7 @@ import java.util.Date;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener, MenuItemCompat.OnActionExpandListener {
 
     private Toolbar toolbarPrincipal;
     private SlidingTabLayout slidingTabLayout;
@@ -58,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
     //para passar conteúdo na configuração do artista
     private ParseObject artistaConfig;
+
+    private FragmentManager fragmentManager;
+    private ArtistaFragment artistaFragment;
 
 
     @Override
@@ -82,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
         slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this, R.color.cinzaEscuro));
         slidingTabLayout.setViewPager(viewPager);
 
+
+        //fragmentManager = getSupportFragmentManager();
+        //artistaFragment = (ArtistaFragment) fragmentManager.findFragmentById(R.id.lista_artistas);
+        artistaFragment = new ArtistaFragment();
     }
 
     @Override
@@ -89,6 +100,14 @@ public class MainActivity extends AppCompatActivity {
 
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_main, menu);
+
+        MenuItem searchitem = menu.findItem(R.id.action_pesquisar);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchitem);
+        searchView.setOnQueryTextListener(this);
+        searchView.setQueryHint(getString(R.string.hintBusca));
+
+        //SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
+        //searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         return true;
     }
 
@@ -127,11 +146,31 @@ public class MainActivity extends AppCompatActivity {
         ParseObject parseObject = ParseUser.getCurrentUser();
 
         Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
-        intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+//        intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
         intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
         intent.putExtra("cidade", parseObject.getString("cidade"));
         intent.putExtra("introducao", parseObject.getString("introducao"));
         startActivity(intent);
     }
 
+    @Override
+    public boolean onQueryTextSubmit(String s){
+        artistaFragment.buscar(s);
+        return true;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String s) {
+        artistaFragment.buscar(s);
+        return false;
+    }
+    @Override
+    public boolean onMenuItemActionExpand(MenuItem item) {
+        return true; // para expandir a view
+    }
+    @Override
+    public boolean onMenuItemActionCollapse(MenuItem item) {
+        artistaFragment.limparBusca();
+        return true; // para voltar ao normal
+    }
 }

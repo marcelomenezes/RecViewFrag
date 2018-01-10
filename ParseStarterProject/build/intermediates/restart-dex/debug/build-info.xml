@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
+    api-level="22"
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="72555509354136"
-    token="2655567612947879165"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="15543344411086"
+    token="5906133319232356102"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -21,15 +21,16 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+        type="MAIN" />
+
     <build
-        timestamp="72430215107718"
+        timestamp="42685397584787"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="72555509354136"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
