@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
     private FragmentManager fragmentManager;
     private ArtistaFragment artistaFragment;
+    private EventoFragment eventoFragment;
 
 
     @Override
@@ -92,7 +93,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         //fragmentManager = getSupportFragmentManager();
         //artistaFragment = (ArtistaFragment) fragmentManager.findFragmentById(R.id.lista_artistas);
-        artistaFragment = new ArtistaFragment();
+        artistaFragment = (ArtistaFragment) tabsAdapter.getFragment(0);
+        eventoFragment = (EventoFragment) tabsAdapter.getFragment(1);
+
     }
 
     @Override
@@ -155,13 +158,13 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
     @Override
     public boolean onQueryTextSubmit(String s){
-        artistaFragment.buscar(s);
         return true;
     }
 
     @Override
     public boolean onQueryTextChange(String s) {
         artistaFragment.buscar(s);
+        eventoFragment.buscar(s);
         return false;
     }
     @Override
@@ -171,6 +174,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     public boolean onMenuItemActionCollapse(MenuItem item) {
         artistaFragment.limparBusca();
+        eventoFragment.limparBusca();
         return true; // para voltar ao normal
     }
 }

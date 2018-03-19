@@ -43,7 +43,7 @@ public class ArtistaFragment extends Fragment{
     private ListView listView;
     private List<ParseUser> recuperarArtistas;
     private List<ParseObject> artistas,  carregado, resultado, carregarArtistas, artistasFiltrados;
-    private ArrayAdapter<ParseObject> adapter, adaptado;
+    private ArrayAdapter<ParseObject> adapter, adaptado, retornado;
     private ParseQuery<ParseUser> query;
 
 
@@ -74,20 +74,18 @@ public class ArtistaFragment extends Fragment{
         listView.setAdapter(adapter);
 
 
+
         //Montar Perfil do artista
         getArtistas();
         getArtistasCarregados();
 
        carregarArtistas =  getArtistasCarregados();
-
-
-
-        //limparBusca();
+        limparBusca();
 
         /*
         Adicionar click para artista e abrir o perfil respectivo
         */
-        listView.setOnItemClickListener(   new AdapterView.OnItemClickListener() {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Recupera os dados da listview para serem passados.
@@ -99,11 +97,12 @@ public class ArtistaFragment extends Fragment{
                 intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
                 intent.putExtra("cidade", parseObject.getString("cidade"));
                 intent.putExtra("introducao", parseObject.getString("introducao"));
-
+                intent.putExtra("linksArtista", parseObject.getString("linksArtista"));
 
                 startActivity(intent);
             }
         });
+
 
         return view;
     }
@@ -113,6 +112,7 @@ public class ArtistaFragment extends Fragment{
         //Query para selecionar todos artistas cadastrados, com exceção do usuário logado
         query = ParseUser.getQuery();
         //query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.whereNotEqualTo("flagArtista", "NO");
         query.orderByAscending("nomeArtista");
 
         query.findInBackground(new FindCallback<ParseUser>() {
@@ -127,9 +127,10 @@ public class ArtistaFragment extends Fragment{
                         artistas.clear();
                         for (ParseUser parseUser : objects){
                             artistas.add(parseUser);
-                           // boraver.add(parseUser.getParseObject("nomeUsuario").toString());
                         }
                         adapter.notifyDataSetChanged();
+                        //retornado.notifyDataSetChanged();
+                       // atualizaArtistas();
                     }
                 }else{//erro
 
@@ -139,6 +140,8 @@ public class ArtistaFragment extends Fragment{
         });
 
     }
+
+    public void atualizaArtistas(){getArtistas();}
 
     public List<ParseObject> getArtistasCarregados(){
 
@@ -159,37 +162,61 @@ public class ArtistaFragment extends Fragment{
     }
 
     public void limparBusca(){
-        //getArtistas();
+        //Montar ListView e adapter
+        retornado = new ArtistaAdapter(getActivity(), artistas);
+        listView.setAdapter(retornado);
+        //atualizaArtistas();
 
     }
 
-    public void buscar(String s){
-        if (s == null || s.trim().equals("")){
+    public void buscar(String s) {
+        if (s == null || s.trim().equals("")) {
+            //getArtistasCarregados();
+            //List<ParseObject> artistasencontrados = new ArrayList<>(carregarArtistas);
+            artistasFiltrados = artistas;
             limparBusca();
             return;
-        }
-        getArtistasCarregados();
+        } else {
+            getArtistasCarregados();
             List<ParseObject> artistasencontrados = new ArrayList<>(carregarArtistas);
-            //adapter = new ArtistaAdapter(getActivity(), artistasencontrados);
 
-            if(artistasencontrados.size() >0) {
+            if (artistasencontrados.size() > 0) {
                 for (int i = artistasencontrados.size() - 1; i >= 0; i--) {
                     //for (int i =  3; i >= 0; i--) {
                     ParseObject parseObject = artistasencontrados.get(i);
                     if (!parseObject.getString("nomeArtista").toString().toUpperCase().contains(s.toUpperCase())) {
                         artistasencontrados.remove(parseObject);
                     }
-                    //adapter.notifyDataSetChanged();
                 }
                 artistasFiltrados = artistasencontrados;
 
-            } else{
+            } else {
 
             }
-        //if (getActivity() != null) {
-            adaptado = new ArtistaAdapter(getActivity().getApplicationContext(), artistasFiltrados);
+
+            adaptado = new ArtistaAdapter(getActivity(), artistasFiltrados);
             listView.setAdapter(adaptado);
-        //}
+        }
+         /*
+        Adicionar click para artista e abrir o perfil respectivo
+        */
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Recupera os dados da listview para serem passados.
+                ParseObject parseObject = artistasFiltrados.get(position);
+
+                //enviar dados para o PerfilArtista
+                Intent intent = new Intent(getActivity(), PerfilArtistaActivity.class);
+                intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+                intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+                intent.putExtra("cidade", parseObject.getString("cidade"));
+                intent.putExtra("introducao", parseObject.getString("introducao"));
+
+
+                startActivity(intent);
+            }
+        });
 
     }
 }

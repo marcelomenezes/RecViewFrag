@@ -13,6 +13,7 @@ import com.parse.starter.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by marcelomenezes on 04/11/17.
@@ -21,9 +22,9 @@ import java.util.ArrayList;
 public class EventoAdapter extends ArrayAdapter<ParseObject> {
 
     private Context context;
-    private ArrayList<ParseObject> eventos_listados;
+    private List<ParseObject> eventos_listados;
 
-    public EventoAdapter(Context c, ArrayList<ParseObject> objects) {
+    public EventoAdapter(Context c, List<ParseObject> objects) {
         super(c, 0, objects);
         this.context = c;
         this.eventos_listados = objects;

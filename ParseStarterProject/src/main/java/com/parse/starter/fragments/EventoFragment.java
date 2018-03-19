@@ -17,6 +17,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.starter.R;
+import com.parse.starter.activity.PerfilArtistaActivity;
 import com.parse.starter.activity.PerfilEventoActivity;
 import com.parse.starter.adapter.ArtistaAdapter;
 import com.parse.starter.adapter.EventoAdapter;
@@ -33,8 +34,8 @@ public class EventoFragment extends Fragment {
 
 
     private ListView listView;
-    private ArrayList<ParseObject> eventos_listados;
-    private ArrayAdapter<ParseObject> adapter;
+    private List<ParseObject> eventos_listados, eventosFiltrados, recuperarEventos, carregarEventos;
+    private ArrayAdapter<ParseObject> adapter, adaptado, retornado;
     private ParseQuery<ParseObject> query;
 
     public EventoFragment() {
@@ -56,7 +57,12 @@ public class EventoFragment extends Fragment {
         adapter = new EventoAdapter(getActivity(), eventos_listados);
         listView.setAdapter(adapter);
 
+        limparBusca();
+
         getEventosListados();
+        getEventosCarregados();
+
+        carregarEventos = getEventosCarregados();
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -70,6 +76,10 @@ public class EventoFragment extends Fragment {
                 intent.putExtra("nomeEvento", parseObject.getString("nomeEvento"));
                 intent.putExtra("detalhesEvento", parseObject.getString("detalhesEvento"));
                 intent.putExtra("enderecoEvento", parseObject.getString("enderecoEvento"));
+                //intent.putExtra("deDataEvento", parseObject.getString("deDataEvento"));
+
+                intent.putExtra("deDataEvento", parseObject.getDate("deDataEvento").toString());
+
 
                 startActivity(intent);
 
@@ -114,6 +124,79 @@ public class EventoFragment extends Fragment {
 
     public void atualizaEventos(){
         getEventosListados();
+    }
+
+    public void limparBusca(){
+            retornado = new EventoAdapter(getActivity(), eventos_listados);
+            listView.setAdapter(retornado);
+
+    }
+
+    public List<ParseObject> getEventosCarregados(){
+
+        query = ParseQuery.getQuery("Evento");
+        query.orderByAscending("nomeEvento");
+        recuperarEventos = new ArrayList<>();
+        carregarEventos = new ArrayList<>();
+
+        try{
+            recuperarEventos = query.find();
+            for (ParseObject parseObject : recuperarEventos){
+                carregarEventos.add(parseObject);
+            }
+
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        return carregarEventos;
+    }
+
+    public void buscar(String s) {
+        if (s == null || s.trim().equals("")) {
+            eventosFiltrados = eventos_listados;
+            limparBusca();
+            return;
+        }
+        getEventosCarregados();
+        List<ParseObject> eventosencontrados = new ArrayList<>(carregarEventos);
+
+        if (eventosencontrados.size() > 0) {
+            for (int i = eventosencontrados.size() - 1; i >= 0; i--) {
+                //for (int i =  3; i >= 0; i--) {
+                ParseObject parseObject = eventosencontrados.get(i);
+                if (!parseObject.getString("nomeEvento").toString().toUpperCase().contains(s.toUpperCase())) {
+                    eventosencontrados.remove(parseObject);
+                }
+                //adapter.notifyDataSetChanged();
+            }
+            eventosFiltrados = eventosencontrados;
+
+        } else {
+
+        }
+
+        adaptado = new EventoAdapter(getActivity(), eventosFiltrados);
+        listView.setAdapter(adaptado);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                //Recupera os dados da listview
+                ParseObject parseObject = eventosFiltrados.get(position);
+
+                //Enviar os daos para a PerfilEventoActivity
+                Intent intent = new Intent(getActivity(), PerfilEventoActivity.class);
+                intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+                intent.putExtra("nomeEvento", parseObject.getString("nomeEvento"));
+                intent.putExtra("detalhesEvento", parseObject.getString("detalhesEvento"));
+                intent.putExtra("enderecoEvento", parseObject.getString("enderecoEvento"));
+
+                startActivity(intent);
+
+            }
+        });
+
+
     }
 
 

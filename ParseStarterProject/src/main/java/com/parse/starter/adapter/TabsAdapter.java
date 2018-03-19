@@ -15,6 +15,7 @@ import com.parse.starter.R;
 import com.parse.starter.fragments.ArtistaFragment;
 import com.parse.starter.fragments.EventoFragment;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -29,19 +30,25 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
 
     private int tamanhoIcone;
 
-    private HashMap<Integer, Fragment> fragmentosUtilizados;
+    //private HashMap<Integer, Fragment> fragmentosUtilizados;
+    private ArrayList<Fragment> fragmentosUtilizados;
 
     public TabsAdapter(FragmentManager fm, Context c) {
         super(fm);
         context = c;
         double escala = this.context.getResources().getDisplayMetrics().density;
         tamanhoIcone = (int) (36 * escala);
-        this.fragmentosUtilizados = new HashMap<>();
+        //this.fragmentosUtilizados = new HashMap<>();
+        this.fragmentosUtilizados = new ArrayList<>();
+        ArtistaFragment af = new ArtistaFragment();
+        EventoFragment ef = new EventoFragment();
+        fragmentosUtilizados.add(af);
+        fragmentosUtilizados.add(ef);
     }
 
     @Override
     public Fragment getItem(int position) {
-
+    /*
         Fragment fragment = null;
 
         switch (position){
@@ -56,6 +63,8 @@ public class TabsAdapter extends FragmentStatePagerAdapter {
                 break;
         }
         return fragment;
+        */
+        return fragmentosUtilizados.get(position);
     }
 
     @Override

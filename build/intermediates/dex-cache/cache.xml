@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="d6df48407a1d2d704fc723ca1c98eb0b0a31f6ab">
+        sha1="738deffaaf3b24b55db7dc6b925aa65209ef9725">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e33d2d9499d8301e1e70d13c59551691afb5be3e/classes.dex" />
     </item>
     <item
@@ -180,6 +180,15 @@
         revision="23.0.1"
         sha1="ea42a61fa3ef965fc3410461b2b63eb4b626b8c2">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcelomenezes/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_be20fc96950d45dd559a3d34578c0f373853921c/classes.dex" />
     </item>
     <item
         is-multidex="true"

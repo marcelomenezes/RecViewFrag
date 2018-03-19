@@ -81,6 +81,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.parse.starter.activity.MainActivity" />
         </activity>
+        <activity
+            android:name="com.parse.starter.activity.WebViewArtistaActivity"
+            android:parentActivityName="com.parse.starter.activity.MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.parse.starter.activity.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

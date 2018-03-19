@@ -4,29 +4,43 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="15543344411086"
+    timestamp="6422733146409"
     token="5906133319232356102"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="671" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="80" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="42685397584787"
+        timestamp="5845091966605"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="6422733146409"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="63091019335083"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"

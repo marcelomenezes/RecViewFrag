@@ -1,5 +1,6 @@
 package com.parse.starter.activity;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
@@ -34,9 +36,11 @@ import com.squareup.picasso.Picasso;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
-public class PerfilConfigEventoActivity extends AppCompatActivity {
+public class PerfilConfigEventoActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button botaoEscolherImagem;
     private Button botaoSalvarEvento;
@@ -44,7 +48,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
     private EditText nomeEventoEditText;
     private EditText detalhesEventoEditText;
     private EditText enderecoEventoEditText;
-    private EditText dataEventoSalva;
+
 
     private ImageView imagemEventoConfig;
 
@@ -54,14 +58,28 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
     private String detalhesEvento;
     private String enderecoEvento;
 
+    private String deDataEvento;
+    private String ateDataEvento;
+
     private ParseObject imagemPassada;
 
-    private Date dataEvento;
+    private Date dataEvento = new Date();
 
     private ViewPager viewPager;
     private SlidingTabLayout slidingTabLayout;
     private ListView listView;
     private ListAdapter listAdapter;
+
+    private EditText deDataEventoSalvaText;
+    private EditText ateDataEventoSalvaText;
+    private DatePickerDialog deDataEventoDialog;
+    private DatePickerDialog ateDataEventoDialog;
+    private SimpleDateFormat dataFormato;
+
+    private DatePicker datePicker;
+    private Calendar calendar;
+    private int year, month, day;
+
 
 
 
@@ -69,6 +87,10 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_config_evento);
+
+        dataFormato = new SimpleDateFormat("dd-mm-yyyy");
+        deDataEventoSalvaText = (EditText) findViewById(R.id.text_de_data_evento);
+        ateDataEventoSalvaText = (EditText) findViewById(R.id.text_ate_data_evento);
 
         botaoEscolherImagem = (Button) findViewById(R.id.botao_escolher_imagem_evento);
         botaoSalvarEvento = (Button) findViewById(R.id.botao_salvar_evento);
@@ -88,6 +110,8 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
         //configura o adapter
         //configurar adapter para atualização de lista do fragment
+
+        setData();
 
 
 
@@ -120,6 +144,40 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
 
     }
 
+    private void setData(){
+        deDataEventoSalvaText.setOnClickListener(this);
+        ateDataEventoSalvaText.setOnClickListener(this);
+
+        Calendar newCalendar = Calendar.getInstance();
+        deDataEventoDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Calendar newDate = Calendar.getInstance();
+                newDate.set(year, monthOfYear, dayOfMonth);
+                deDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+            }
+
+        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
+
+        ateDataEventoDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Calendar newDate = Calendar.getInstance();
+                newDate.set(year, monthOfYear, dayOfMonth);
+                ateDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+            }
+
+        },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
+    }
+
+    @Override
+    public void onClick(View view) {
+        if(view == deDataEventoSalvaText) {
+            deDataEventoDialog.show();
+        } else if(view == ateDataEventoSalvaText) {
+            ateDataEventoDialog.show();
+        }
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -168,12 +226,23 @@ public class PerfilConfigEventoActivity extends AppCompatActivity {
                         nomeEvento = nomeEventoEditText.getText().toString();
                         detalhesEvento = detalhesEventoEditText.getText().toString();
                         enderecoEvento = enderecoEventoEditText.getText().toString();
-                        //dataEvento = dataEventoSalva.getText().
+                        deDataEvento = deDataEventoSalvaText.getText().toString();
+                        ateDataEvento = ateDataEventoSalvaText.getText().toString();
+
+
+                        try {
+                            dataEvento = dataFormato.parse(deDataEvento);
+                        } catch (java.text.ParseException e) {
+                            e.printStackTrace();
+                        }
+                        //Date finalDate = dataFormato.format(deDataEvento);
 
                         parseEvento.put("username", ParseUser.getCurrentUser());
                         parseEvento.put("nomeEvento", nomeEvento);
                         parseEvento.put("detalhesEvento", detalhesEvento);
                         parseEvento.put("enderecoEvento", enderecoEvento);
+                        parseEvento.put("deDataEvento", dataEvento);
+                        parseEvento.put("ateDataEvento", ateDataEvento);
 
 
                         //salvar os dados

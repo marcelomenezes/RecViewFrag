@@ -52,10 +52,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_below="@+id/lista_ritmos"
+        android:layout_below="@+id/lista_webView"
         android:layout_centerHorizontal="true"
         android:id="@+id/lista_eventos_perfil"/>
 
+    <TextView
+        android:id="@+id/lista_webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lista_ritmos"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
